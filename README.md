@@ -22,8 +22,8 @@ List JSRs that specify a given package:
 
 Then download it:
 
-    java org.secnod.jsr.cli.Tool download jsr 370
-    /tmp/jaxrs2_1finalspec.pdf
+    java org.secnod.jsr.cli.Tool download jsr 370 .
+    ./JSR-370-jaxrs2_1finalspec.pdf
 
 List all variants of JSR 318:
 

@@ -31,8 +31,8 @@ List all variants of JSR 318:
 
 Then download the interceptors variant:
 
-    java org.secnod.jsr.cli.Tool download jsr 318-interceptors
-    /tmp/Intercept.pdf
+    java org.secnod.jsr.cli.Tool download jsr 318-interceptors .
+    ./JSR-318-interceptors-Intercept.pdf
 
 For help on further usage:
 

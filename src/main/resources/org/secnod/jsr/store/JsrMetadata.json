@@ -1,0 +1,1885 @@
+[
+  {
+    "id": 1,
+    "title": "Real-time Specification for Java",
+    "description": "The Real-Time Specification for Java extends the JavaTM platform to support both current practice and advanced real-time systems application programming.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d1"
+  },
+  {
+    "id": 4,
+    "title": "ECperf Benchmark Specification",
+    "description": "ECperf is an EJBTM performance workload that is real-world, scalable and captures the essence of why component models exist.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d4"
+  },
+  {
+    "id": 5,
+    "title": "XML Parsing Specification",
+    "description": "The JavaTM API for XML Parsing (JAXP) allows developers to easily use XML Parsers in their applications via the industry standard SAX and DOM APIs.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d5"
+  },
+  {
+    "id": 6,
+    "title": "Unified Printing API (Java Print Service API)",
+    "description": "This unified Java Print API will be based on a print model that meets the requirements of the current Java 2 Print API and JiniTM Printing.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d6"
+  },
+  {
+    "id": 9,
+    "title": "Federated Management Architecture Specification",
+    "description": "The Federated Management Architecture (FMA) specifies a storage management platform that will allow vendors to construct storage management applications from standard and custom components.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d9"
+  },
+  {
+    "id": 10,
+    "title": "Preferences API Specification",
+    "description": "A simple API allowing programs to manipulate user preference data and configuration data.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d10"
+  },
+  {
+    "id": 11,
+    "title": "JAINTM TCAP Specification",
+    "description": "JAINTM TCAP JSR is a proposed Java specification for the TCAP layer of the Signaling System 7 (SS7) stack.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d11"
+  },
+  {
+    "id": 12,
+    "title": "JavaTM Data Objects (JDO) Specification",
+    "description": "The JDO specification provides for interface-based definitions of data stores and transactions; and selection and transformation of persistent storage data into native JavaTM programming language objects.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d12"
+  },
+  {
+    "id": 13,
+    "title": "Decimal Arithmetic Enhancement",
+    "description": "This primarily adds floating point arithmetic to the BigDecimal class, allowing the use of decimal numbers for general-purpose arithmetic without the problems resulting from conversions to and from another type.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d13"
+  },
+  {
+    "id": 14,
+    "title": "Add Generic Types To The JavaTM Programming Language",
+    "description": "Extending the JavaTM programming language with generic types (aka parameterized types).",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d14"
+  },
+  {
+    "id": 15,
+    "title": "Image I/O Framework Specification",
+    "description": "Image I/O supports image reader and writer plug-ins for sampled image formats. The API provides for exposure and preservation of metadata as well as pixel data.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d15"
+  },
+  {
+    "id": 16,
+    "title": "J2EETM Connector Architecture",
+    "description": "The J2EETM Connector architecture defines a standard architecture for integrating JavaTM applications with existing back-end Enterprise Information systems.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d16"
+  },
+  {
+    "id": 18,
+    "title": "JAINTM OAM API Specification",
+    "description": "JAINTM Operations, Administration, and Maintenance (OAM) defines a standard API for provisioning and managing protocol interfaces in the Telecommunications and Internet Industry.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d18"
+  },
+  {
+    "id": 19,
+    "title": "Enterprise JavaBeansTM 2.0",
+    "description": "The Enterprise JavaBeansTM 2.0 specification extends the architecture with integration with JMS, improved support for entity bean persistence, a portable query language for finder methods, and support for server interoperability.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d19"
+  },
+  {
+    "id": 21,
+    "title": "JAINTM JCC Specification",
+    "description": "JSR 21 focuses on the JAINTM Java Call Control (JCC) Specification. Any references seen below that refer to the JAIN Coordination and Transactions (JCAT) are addressed in JSR 122.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d21"
+  },
+  {
+    "id": 22,
+    "title": "JAINTM SLEE API Specification",
+    "description": "Descriptions of all interfaces, classes, exceptions and requirements to develop portable telecommunication services and application frameworks so that services once developed will run on any JAINTM SLEE-compliant execution environment.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d22"
+  },
+  {
+    "id": 23,
+    "title": "JAINTM MGCP API Specification",
+    "description": "This work will specify the JAINTM API through which access to protocol stacks that support the Media Gateway Control Protocol (RFC 2705) may be achieved.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d23"
+  },
+  {
+    "id": 24,
+    "title": "JAINTM SPA TSM, SD and SAM 1.0 API",
+    "description": "This allows software developers to rapidly develop external Service Provider-type applications to securely access, discover and agree other APIs, which use abstract primitives that hide the heterogeneity of underlying networks.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d24"
+  },
+  {
+    "id": 28,
+    "title": "Java SASL Specification",
+    "description": "This specification defines a SASL client and server API in the JavaTM programming language.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d28"
+  },
+  {
+    "id": 30,
+    "title": "J2METM Connected, Limited Device Configuration",
+    "description": "This specification will define a standard platform configuration of the JavaTM 2 platform, Micro Edition (J2METM) for small, resource-limited, connected devices.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d30"
+  },
+  {
+    "id": 31,
+    "title": "XML Data Binding Specification",
+    "description": "A facility for compiling an XML schema into one or more JavaTM classes which can parse, generate, and validate documents that follow the schema.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d31"
+  },
+  {
+    "id": 32,
+    "title": "JAINTM SIP API Specification",
+    "description": "The JAINTM SIP API specification provides a standard portable interface to share information between SIP Clients and SIP Servers, providing call control elements enabling converged-network applications.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d32"
+  },
+  {
+    "id": 34,
+    "title": "JavaTM Advanced Imaging API 1.1",
+    "description": "Revision of the JavaTM Advanced Imaging API specification to version 1.1. Java Advanced Imaging supports sophisticated image processing in Java 2.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d34"
+  },
+  {
+    "id": 35,
+    "title": "JAINTM INAP API Specification",
+    "description": "This JSR is to develop the JAINTM (Java APIs for Integrated Networks) INAP (Intelligent Network Application Protocol) specification for Intelligent Network Applications in the Telecommunications Industry.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d35"
+  },
+  {
+    "id": 36,
+    "title": "Connected Device Configuration",
+    "description": "The Connected Device Configuration (CDC) provides the basis of the JavaTM 2 platform, Micro Edition for devices that have a sufficient 32-bit microprocessor and ample memory.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d36"
+  },
+  {
+    "id": 37,
+    "title": "Mobile Information Device Profile for the J2METM Platform",
+    "description": "This specification will define a profile that will extend and enhance the \"J2METM Connected, Limited Device Configuration\" (JSR-000030), enabling application development for mobile information appliances and voice communication devices.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d37"
+  },
+  {
+    "id": 38,
+    "title": "Application Installation API Specification",
+    "description": "This proposal is to develop a set of Java APIs that will enable cross-platform installation and de-installation of JavaTM applications as well as platform-specific applications.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d38"
+  },
+  {
+    "id": 40,
+    "title": "The JavaTM Metadata Interface (JMI) Specification",
+    "description": "The Java Metadata Interface specification will address the need for a pure Java metadata framework API that supports the creation, storage, retrieval, and interchange of metadata.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d40"
+  },
+  {
+    "id": 41,
+    "title": "A Simple Assertion Facility",
+    "description": "A new keyword allowing programmers to include assertions describing intended program behavior, which can be checked as programs execute to detect bugs.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d41"
+  },
+  {
+    "id": 43,
+    "title": "JTAPI 1.4 Specification",
+    "description": "JTAPI 1.4 extends and enhances the current Java Telephony specification.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d43"
+  },
+  {
+    "id": 45,
+    "title": "Debugging Support for Other Languages",
+    "description": "This specification establishes standardized tools for correlating JavaTM virtual machine byte code to source code of languages other than the JavaTM programming language.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d45"
+  },
+  {
+    "id": 46,
+    "title": "Foundation Profile",
+    "description": "The Foundation Profile is a set of APIs meant for applications running on small devices that have some type of network connection.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d46"
+  },
+  {
+    "id": 47,
+    "title": "Logging API Specification",
+    "description": "Define standard logging APIs for the error and trace logging.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d47"
+  },
+  {
+    "id": 48,
+    "title": "WBEM Services Specification",
+    "description": "JavaTM WBEM Services is a set of APIs and reference implementation for WBEM. WBEM is an initiative from the DMTF that unifies systems management and instrumentation.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d48"
+  },
+  {
+    "id": 51,
+    "title": "New I/O APIs for the JavaTM Platform",
+    "description": "APIs for scalable I/O, fast buffered binary and character I/O, regular expressions, charset conversion, and an improved filesystem interface.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d51"
+  },
+  {
+    "id": 52,
+    "title": "A Standard Tag Library for JavaServer PagesTM",
+    "description": "A standard tag library for JSPTM pages.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d52"
+  },
+  {
+    "id": 53,
+    "title": "JavaTM Servlet 2.3 and JavaServer PagesTM 1.2 Specifications",
+    "description": "The next versions of the JavaTM Servlet and JavaServer PagesTM (JSP) specifications.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d53"
+  },
+  {
+    "id": 54,
+    "title": "JDBCTM 3.0 Specification",
+    "description": "The proposed specification will update the JDBCTM specification to reflect changes in the SQL specification and JavaTM platform.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d54"
+  },
+  {
+    "id": 55,
+    "title": "Certification Path API",
+    "description": "The Certification Path API provides a set of provider-based APIs for creating, building, and verifying certification paths (also known as \"certificate chains\").",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d55"
+  },
+  {
+    "id": 56,
+    "title": "Java Network Launching Protocol and API",
+    "description": "A specification of protocols and APIs that will enable JavaTM applications to be deployed on the Web.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d56"
+  },
+  {
+    "id": 57,
+    "title": "Long-Term Persistence for JavaBeansTM Specification",
+    "description": "JSR 57 provides streams to convert graphs of JavaBeansTM architecture to and from version resilient file formats (typically XML documents).",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d57"
+  },
+  {
+    "id": 58,
+    "title": "JavaTM 2 Platform, Enterprise Edition 1.3 Specification",
+    "description": "Defines the JavaTM 2 Platform, Enterprise Edition, version 1.3.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d58"
+  },
+  {
+    "id": 59,
+    "title": "J2SETM Merlin Release Contents",
+    "description": "Define the major features of the J2SETM \"Merlin\" release (J2SE 1.4).",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d59"
+  },
+  {
+    "id": 62,
+    "title": "Personal Profile Specification",
+    "description": "The J2METM Personal Profile provides the J2ME environment for those devices with a need for a high degree of Internet connectivity and web fidelity.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d62"
+  },
+  {
+    "id": 63,
+    "title": "JavaTM API for XML Processing 1.1",
+    "description": "The proposed specification will define a set of implementation independent portable APIs supporting XML Processing.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d63"
+  },
+  {
+    "id": 66,
+    "title": "RMI Optional Package Specification Version 1.0",
+    "description": "The J2METM RMI Optional Package (RMI OP) provides JavaTM platform to Java platform remote method invocation for Java devices and interoperates with J2SETM RMI.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d66"
+  },
+  {
+    "id": 67,
+    "title": "JavaTM APIs for XML Messaging 1.0",
+    "description": "JAXM provides an API for packaging and transporting business transactions using on-the-wire protocols being defined by ebXML.org, Oasis, W3C and IETF.",
+    "status": "Active",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d67"
+  },
+  {
+    "id": 72,
+    "title": "JavaTM GSS API",
+    "description": "This defines a Generic Security Services API (GSS-API) in Java, to provide a layer of abstraction over security mechanisms that perform authentication, message integrity protection, and message privacy protection.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d72"
+  },
+  {
+    "id": 73,
+    "title": "Data Mining API",
+    "description": "This JSR addresses the need for a data mining API aligned with existing, evolving data mining standards efforts.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d73"
+  },
+  {
+    "id": 75,
+    "title": "PDA Optional Packages for the J2METM Platform",
+    "description": "This JSR produces two separate optional packages for features commonly found on PDAs and other J2ME mobile devices: one for accessing PIM data and one for accessing file systems.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d75"
+  },
+  {
+    "id": 77,
+    "title": "J2EETM Management",
+    "description": "The JavaTM 2 Platform, Enterprise Edition Management Specification will provide server vendors and tool vendors with a standard model for managing the J2EE Platform.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d77"
+  },
+  {
+    "id": 79,
+    "title": "JAINTM MEGACO API Specification",
+    "description": "This work will specify the JAINTM API through which access to protocol stacks that support the MEGACO/H.248 protocol may be achieved.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d79"
+  },
+  {
+    "id": 80,
+    "title": "JavaTM USB API",
+    "description": "This specification provides a JavaTM API for communicating with devices attached via the Universal Serial Bus (USB). It allows Java applications to discover, read, write, and manage USB devices.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d80"
+  },
+  {
+    "id": 82,
+    "title": "JavaTM APIs for Bluetooth",
+    "description": "Bluetooth is an important emerging standard for wireless integration of small devices. The specification standardizes a set of Java APIs to allow Java-enabled devices to integrate into a Bluetooth environment.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d82"
+  },
+  {
+    "id": 86,
+    "title": "Enterprise Media Beans",
+    "description": "Enterprise Media Beans provide a framework to integrate rich media data (i.e. audio, video, or image) into applications based on EJBTM Entity Beans within the J2EETM application development model.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d86"
+  },
+  {
+    "id": 88,
+    "title": "JavaTM EE Application Deployment",
+    "description": "This specification provides a complete description of the APIs required by the J2EE platform to enable development of platform-independent deployment tools.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d88"
+  },
+  {
+    "id": 89,
+    "title": "OSS Service Activation API",
+    "description": "Provide an API that allows telecom management applications to be developed and integrated with Java-enabled Service Activation systems.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d89"
+  },
+  {
+    "id": 90,
+    "title": "OSS Quality of Service API",
+    "description": "Provide an API that allows telecom management applications to be developed and integrated with Java-enabled Quality of Service systems.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d90"
+  },
+  {
+    "id": 91,
+    "title": "OSS Trouble Ticket API",
+    "description": "The OSS Trouble Ticket API will provide interfaces for creating, querying, updating, and deleting trouble tickets (trouble reports).",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d91"
+  },
+  {
+    "id": 93,
+    "title": "JavaTM API for XML Registries 1.0 (JAXR)",
+    "description": "JAXR provides an API for a set of distributed Registry Services that enables business-to-business integration between business enterprises, using the protocols being defined by ebXML.org, Oasis, ISO 11179.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d93"
+  },
+  {
+    "id": 94,
+    "title": "JavaTM Rule Engine API",
+    "description": "This specification defines a Java runtime API for rule engines.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d94"
+  },
+  {
+    "id": 95,
+    "title": "J2EETM Activity Service for Extended Transactions",
+    "description": "The Activity Service supports flexible ways of composing an application using transactions, and can enable the application to possess some or all ACID properties.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d95"
+  },
+  {
+    "id": 97,
+    "title": "JavaHelpTM 2.0 Specification",
+    "description": "A major update to the JavaHelp 1.0 Specification, including enhancements to merging, multi-topic printing, improved secondary window and popup usage, JFC ToolTip HelpSet support, HelpSet presentation controls and additional Navigators.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d97"
+  },
+  {
+    "id": 99,
+    "title": "Java Specification Participation Agreement",
+    "description": "This is the major revision of the Java Specification Participation Agreement (JSPA).",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d99"
+  },
+  {
+    "id": 101,
+    "title": "JavaTM APIs for XML based RPC",
+    "description": "Java APIs to support emerging industry XML based RPC standards.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d101"
+  },
+  {
+    "id": 105,
+    "title": "XML Digital Signature APIs",
+    "description": "This defines and incorporates a standard set of high-level implementation-independent APIs for XML digital signatures services. The XML Digital Signature specification is defined by the W3C.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d105"
+  },
+  {
+    "id": 107,
+    "title": "JCACHE - Java Temporary Caching API",
+    "description": "Specifies API and semantics for temporary, in memory caching of Java objects, including object creation, shared access, spooling, invalidation, and consistency across JVM\u0027s.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d107"
+  },
+  {
+    "id": 109,
+    "title": "Implementing Enterprise Web Services",
+    "description": "This specification defines the programming model and runtime architecture for implementing web services in Java.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d109"
+  },
+  {
+    "id": 110,
+    "title": "JavaTM APIs for WSDL",
+    "description": "JWSDL provides a standard set of Java APIs for representing, manipulating, reading and writing WSDL (Web Services Description Language) documents, including an extension mechanism for WSDL extensibility.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d110"
+  },
+  {
+    "id": 112,
+    "title": "J2EETM Connector Architecture 1.5",
+    "description": "The J2EE(TM) Connector Architecture 1/5 extends the existing 1.0 specification with new features including asynchronous integration with enterprise information systems, Java Message Service (JMS) provider pluggability.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d112"
+  },
+  {
+    "id": 113,
+    "title": "JavaTM Speech API 2.0",
+    "description": "This JSR extends the work of the 1.0 JavaTM Speech API, specifying a cross-platform interface to support speech recognizers and synthesizers.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d113"
+  },
+  {
+    "id": 114,
+    "title": "JDBC Rowset Implementations",
+    "description": "JavaTM API providing implementations of the JDBC Rowset interface.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d114"
+  },
+  {
+    "id": 115,
+    "title": "JavaTM Authorization Contract for Containers",
+    "description": "This JSR seeks to define a contract between containers and authorization service providers that will result in the implementation of providers for use by containers.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d115"
+  },
+  {
+    "id": 116,
+    "title": "SIP Servlet API",
+    "description": "The SIP Servlet API defines a high-level extension API for SIP servers. It enables SIP applications to be deployed and managed based on the servlet model.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d116"
+  },
+  {
+    "id": 118,
+    "title": "Mobile Information Device Profile 2.0",
+    "description": "This specification will define a profile that will extend and enhance the \"J2METM Mobile Information Device Profile\" (JSR-000037).",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d118"
+  },
+  {
+    "id": 120,
+    "title": "Wireless Messaging API",
+    "description": "This defines a set of optional APIs which provides standard access to wireless communication resources, designed to run on J2ME configurations and to enhance J2ME profiles with unique functionality.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d120"
+  },
+  {
+    "id": 121,
+    "title": "Application Isolation API Specification",
+    "description": "An API for initiating and controlling computations isolated from each other to varying degrees. Some API semantics are similar to those of ThreadGroup.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d121"
+  },
+  {
+    "id": 124,
+    "title": "J2EETM Client Provisioning Specification",
+    "description": "This JSR aims to define Java standard which partitions server applications that provision client applications.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d124"
+  },
+  {
+    "id": 127,
+    "title": "JavaServer Faces",
+    "description": "This specification defines an architecture and APIs which simplify the creation and maintenance of Java Server application GUIs.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d127"
+  },
+  {
+    "id": 129,
+    "title": "Personal Basis Profile Specification",
+    "description": "The J2METM Personal Basis Profile provides a J2ME application environment for network-connected devices supporting a basic level of graphical presentation.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d129"
+  },
+  {
+    "id": 130,
+    "title": "OSS Billing Mediation API",
+    "description": "Provide an API via the OSS through Java initiative that allows telecom network management applications to be developed and integrated with Java-enabled IP Billing systems.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d130"
+  },
+  {
+    "id": 131,
+    "title": "ECPerf 1.1",
+    "description": "ECperf 1.1 is a maintenance release of ECperf 1.0. The ECperf 1.1 Expert Group will also be responsible for evaluating and accepting ECperf 1.0 results submitted.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d131"
+  },
+  {
+    "id": 133,
+    "title": "JavaTM Memory Model and Thread Specification Revision",
+    "description": "The proposed specification describes the semantics of threads, locks, volatile variables and data races. This includes what has been referred to as the Java memory model.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d133"
+  },
+  {
+    "id": 135,
+    "title": "Mobile Media API",
+    "description": "This specifies a small-footprint multimedia API for J2METM, allowing simple, easy access and control of basic audio and multimedia resources while also addressing scalability and support of more sophisticated features.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d135"
+  },
+  {
+    "id": 139,
+    "title": "Connected Limited Device Configuration 1.1",
+    "description": "This specification will define a revised version of the J2METM Connected, Limited Device Configuration (CLDC).",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d139"
+  },
+  {
+    "id": 142,
+    "title": "OSS Inventory API",
+    "description": "The OSS Inventory API defines J2EE based interfaces between inventory repositories and other OSS components.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d142"
+  },
+  {
+    "id": 144,
+    "title": "OSS Common API",
+    "description": "This JSR specifies the set of APIs which are common across the OSS through Java JSRs. This provides consistency by reducing duplication of common interfaces and classes among these JSRs.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d144"
+  },
+  {
+    "id": 147,
+    "title": "Workspace Versioning and Configuration Management",
+    "description": "Workspace Versioning and Configuration Management provides client support for creating and manipulating sets of version-controlled files and web resources.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d147"
+  },
+  {
+    "id": 151,
+    "title": "JavaTM 2 Platform, Enterprise Edition 1.4 (J2EE 1.4) Specification",
+    "description": "This JSR is to develop J2EE 1.4, the next release of the Java 2 Platform, Enterprise Edition.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d151"
+  },
+  {
+    "id": 152,
+    "title": "JavaServer PagesTM 2.0 Specification",
+    "description": "Next revision of the JavaServer PagesTM specification.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d152"
+  },
+  {
+    "id": 153,
+    "title": "Enterprise JavaBeansTM 2.1",
+    "description": "The Enterprise JavaBeans 2.1 specification adds to the EJB architecture support for web services, extensions to message-driven beans, enhancements to EJB QL, and a container-managed timer service.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d153"
+  },
+  {
+    "id": 154,
+    "title": "JavaTM Servlet 2.4 Specification",
+    "description": "This specification will build on servlet specification version 2.3 by enhancing existing features and adding new facilities of a reasonably small nature.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d154"
+  },
+  {
+    "id": 163,
+    "title": "JavaTM Platform Profiling Architecture",
+    "description": "A mechanism and APIs for extracting time and space profiling information from a running JavaTM virtual machine.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d163"
+  },
+  {
+    "id": 164,
+    "title": "SIMPLE Presence",
+    "description": "SIMPLE Presence provides a standard portable and secure interface to manipulate presence information between a SIMPLE client (watcher) and a presence server (presence agent).",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d164"
+  },
+  {
+    "id": 165,
+    "title": "SIMPLE Instant Messaging",
+    "description": "SIMPLE Instant Messaging provides a standard portable and secure interface to exchange messages between SIMPLE clients. SIMPLE is an extension of SIP to support presence and instant messaging.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d165"
+  },
+  {
+    "id": 166,
+    "title": "Concurrency Utilities",
+    "description": "The JSR proposes a set of medium-level utilities that provide functionality commonly needed in concurrent programs.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d166"
+  },
+  {
+    "id": 168,
+    "title": "Portlet Specification",
+    "description": "To enable interoperability between Portlets and Portals, this specification will define a set of APIs for Portal computing addressing the areas of aggregation, personalization, presentation and security.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d168"
+  },
+  {
+    "id": 169,
+    "title": "JDBC Optional Package for CDC/Foundation Profile",
+    "description": "The proposed specification will define a JDBC Optional Package for Java 2 Micro Edition (J2ME), Connected Device Configuration (CDC) Foundation Profile.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d169"
+  },
+  {
+    "id": 170,
+    "title": "Content Repository for JavaTM technology API",
+    "description": "Specifies a standard API to access content repositories in JavaTM 2 independently of implementation.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d170"
+  },
+  {
+    "id": 171,
+    "title": "Java Community ProcessSM (JCP) Program, version 2.5",
+    "description": "This JSR defined JCP version 2.5. Its overriding goal was to ensure that the Process document was in sync with the JSPA 2 created by JSR 99.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d171"
+  },
+  {
+    "id": 172,
+    "title": "J2METM Web Services Specification",
+    "description": "The purpose of this specification is to define an optional package that provides standard access from J2ME to web services.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d172"
+  },
+  {
+    "id": 174,
+    "title": "Monitoring and Management Specification for the JavaTM Virtual Machine",
+    "description": "A specification for APIs for monitoring and management of the JavaTM virtual machine.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d174"
+  },
+  {
+    "id": 175,
+    "title": "A Metadata Facility for the JavaTM Programming Language",
+    "description": "A metadata facility for the JavaTM Programming Language would allow classes, interfaces, fields, and methods to be marked as having particular attributes.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d175"
+  },
+  {
+    "id": 176,
+    "title": "J2SETM 5.0 (Tiger) Release Contents",
+    "description": "Define the major features of the J2SETM \"Tiger\" release (J2SE 5.0).",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d176"
+  },
+  {
+    "id": 177,
+    "title": "Security and Trust Services API for J2METM",
+    "description": "This specification will provide J2ME applications with APIs for security and trust services through the integration of a Security Element.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d177"
+  },
+  {
+    "id": 179,
+    "title": "Location API for J2METM",
+    "description": "An Optional Package that enables developers to write mobile location-based applications for resource-limited devices. The API works on the J2ME CLDC v1.1 and CDC configurations.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d179"
+  },
+  {
+    "id": 180,
+    "title": "SIP API for J2METM",
+    "description": "SIP API for J2ME defines a multipurpose SIP API for J2ME clients. It enables SIP applications to be executed in memory limited terminals, especially targeting to mobile phones.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d180"
+  },
+  {
+    "id": 181,
+    "title": "Web Services Metadata for the JavaTM Platform",
+    "description": "This JSR defines an annotated JavaTM format that that uses JavaTM Language Metadata (JSR 175) to enable easy definition of Java Web Services in a J2EE container.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d181"
+  },
+  {
+    "id": 184,
+    "title": "Mobile 3D Graphics API for J2METM",
+    "description": "This proposed JSR will provide a scalable, small-footprint, interactive 3D API for use on mobile devices.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d184"
+  },
+  {
+    "id": 185,
+    "title": "JavaTM Technology for the Wireless Industry",
+    "description": "This JSR will provide an overall architectural description as well as an integrated TCK and RI to coordinate selected JCP efforts for the wireless industry.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d185"
+  },
+  {
+    "id": 186,
+    "title": "Presence",
+    "description": "Presence is a generic and protocol-agnostic API for Presence, providing a standard portable and secure interface to control, manage and manipulate Presence information between Presence clients and servers.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d186"
+  },
+  {
+    "id": 187,
+    "title": "Instant Messaging",
+    "description": "A protocol-agnostic API for Instant Messaging, this provides a standard portable and secure interface to control, manage and manipulate instant messages between clients through the use of presence servers.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d187"
+  },
+  {
+    "id": 188,
+    "title": "CC/PP Processing",
+    "description": "To enable interoperability between web servers and access mechanisms, and to facilitate development of device independent web applications, this specification will define a set of APIs for processing CC/PP information.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d188"
+  },
+  {
+    "id": 190,
+    "title": "Event Tracking API for J2ME",
+    "description": "This defines an optional code package that standardizes application event tracking on a mobile device and the submission of these event records to an event-tracking server via a standard protocol.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d190"
+  },
+  {
+    "id": 195,
+    "title": "Information Module Profile",
+    "description": "This JSR will define a J2ME profile targeting embedded networked devices that wish to support a Java runtime environment, but that do not have graphical display capabilities.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d195"
+  },
+  {
+    "id": 196,
+    "title": "JavaTM Authentication Service Provider Interface for Containers",
+    "description": "This JSR seeks to define a standard interface by which authentication modules may be integrated with containers and such that these modules may establish the authentication identities used by containers.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d196"
+  },
+  {
+    "id": 197,
+    "title": "Generic Connection Framework Optional Package for the J2SE Platform",
+    "description": "The Generic Connection Framework (GCF) Optional Package for J2SE will permit applications that rely on the GCF in J2ME to migrate to J2SE.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d197"
+  },
+  {
+    "id": 198,
+    "title": "A Standard Extension API for Integrated Development Environments",
+    "description": "JSR 198 has the goal of defining a standard IDE API that allows developers to implement IDE plugins once and have them run with any IDE supporting the specification.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d198"
+  },
+  {
+    "id": 199,
+    "title": "JavaTM Compiler API",
+    "description": "A service provider API that allows a Java program to select and invoke a Java Language Compiler programmatically.",
+    "status": "Active",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d199"
+  },
+  {
+    "id": 200,
+    "title": "Network Transfer Format for JavaTM Archives.",
+    "description": "This JSR will define a dense download format for JavaTM classfiles. It is expected that this format can achieve considerable size savings over compressed JAR files.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d200"
+  },
+  {
+    "id": 201,
+    "title": "Extending the JavaTM Programming Language with Enumerations, Autoboxing, Enhanced for loops and Static Import",
+    "description": "This JSR proposes four new JavaTM programming language features: enumerations, autoboxing, enhanced for loops and static import.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d201"
+  },
+  {
+    "id": 202,
+    "title": "JavaTM Class File Specification Update",
+    "description": "This JSR will make incremental updates to the JavaTM class file format. This will principally consist of increasing certain class file size limits and adding support for split verification.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d202"
+  },
+  {
+    "id": 203,
+    "title": "More New I/O APIs for the JavaTM Platform (\"NIO.2\")",
+    "description": "APIs for filesystem access, scalable asynchronous I/O operations, socket-channel binding and configuration, and multicast datagrams.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d203"
+  },
+  {
+    "id": 204,
+    "title": "Unicode Supplementary Character Support",
+    "description": "The proposed specification will define a mechanism to support Supplementary Characters as defined in the Unicode 3.1 specification.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d204"
+  },
+  {
+    "id": 205,
+    "title": "Wireless Messaging API 2.0",
+    "description": "This JSR will extend and enhance the \"Wireless Messaging API\" (JSR-000120)",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d205"
+  },
+  {
+    "id": 208,
+    "title": "JavaTM Business Integration (JBI)",
+    "description": "This JSR extends J2EETM and J2SETM with business integration SPIs.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d208"
+  },
+  {
+    "id": 209,
+    "title": "Advanced Graphics and User Interface Optional Package for the J2METM Platform",
+    "description": "The Advanced Graphics and User Interface (AGUI) Optional Package will migrate the core APIs for advanced graphics and user interface facilities from the J2SE platform to the J2ME platform.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d209"
+  },
+  {
+    "id": 211,
+    "title": "Content Handler API",
+    "description": "Enabling J2METM applications to handle multi-media and web content can give developers and users a seamless and integrated user environment on mobile phones and wireless devices.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d211"
+  },
+  {
+    "id": 212,
+    "title": "Server API for Mobile Services: Messaging - SAMS: Messaging",
+    "description": "This specification defines a protocol agnostic messaging API for composing, sending and receiving short messages and multimedia messages. The API shall work on the J2SE and J2EE.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d212"
+  },
+  {
+    "id": 215,
+    "title": "Java Community ProcessSM version 2.6",
+    "description": "This JSR will update the JCP Process document to make the process more transparent and efficient.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d215"
+  },
+  {
+    "id": 216,
+    "title": "Personal Profile 1.1",
+    "description": "This JSR will update the existing Personal Profile (JSR-62) specification to reflect the J2SETM 1.4 APIs).",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d216"
+  },
+  {
+    "id": 217,
+    "title": "Personal Basis Profile 1.1",
+    "description": "This JSR will update the existing Personal Basis Profile (JSR-129) specification to reflect the J2SETM 1.4 APIs.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d217"
+  },
+  {
+    "id": 218,
+    "title": "Connected Device Configuration (CDC) 1.1",
+    "description": "This JSR defines a revision to the J2ME CDC specification. This JSR provides updates (based on J2SE, v1.4) to the existing core, non-graphical Java APIs for small electronic devices.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d218"
+  },
+  {
+    "id": 219,
+    "title": "Foundation Profile 1.1",
+    "description": "This JSR defines a revision to the J2ME Foundation Profile. This JSR provides updates (based on J2SE, v1.4) to the existing core, non-graphical Java APIs for small electronic devices.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d219"
+  },
+  {
+    "id": 220,
+    "title": "Enterprise JavaBeansTM 3.0",
+    "description": "The purpose of Enterprise JavaBeans (EJB) 3.0 is to improve the EJB architecture by reducing its complexity from the developer\u0027s point of view.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d220"
+  },
+  {
+    "id": 221,
+    "title": "JDBCTM 4.0 API Specification",
+    "description": "This specification seeks to improve Java application access to SQL data stores by the provision of ease-of-development focused features and improvements at both the utility and API level.",
+    "status": "Active",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d221"
+  },
+  {
+    "id": 222,
+    "title": "JavaTM Architecture for XML Binding (JAXB) 2.0",
+    "description": "JAXB 2.0 is the next version of JAXB, The JavaTM Architecture for XML Binding. This JSR proposes additional functionality while retaining ease of development as a key goal.",
+    "status": "Active",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d222"
+  },
+  {
+    "id": 224,
+    "title": "JavaTM API for XML-Based Web Services (JAX-WS) 2.0",
+    "description": "The JAX-WS 2.0 specification is the next generation web services API replacing JAX-RPC 1.0.",
+    "status": "Active",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d224"
+  },
+  {
+    "id": 225,
+    "title": "XQuery API for JavaTM (XQJ)",
+    "description": "Develop a common API that allows an application to submit queries conforming to the W3C XQuery 1.0 specification and to process the results of such queries.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d225"
+  },
+  {
+    "id": 226,
+    "title": "Scalable 2D Vector Graphics API for J2METM",
+    "description": "This specification will define an optional package API for rendering scalable 2D vector graphics, including image files in W3C Scalable Vector Graphics (SVG) format.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d226"
+  },
+  {
+    "id": 228,
+    "title": "Information Module Profile - Next Generation (IMP-NG)",
+    "description": "This specification will define a profile that will extend and enhance the \"J2METM Information Module Profile\" (JSR-195).",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d228"
+  },
+  {
+    "id": 229,
+    "title": "Payment API",
+    "description": "Enabling application developers to initiate mobile payment transactions in J2METM applications.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d229"
+  },
+  {
+    "id": 231,
+    "title": "JavaTM Binding for the OpenGL® API",
+    "description": "Java bindings to the OpenGL native 3D graphics library.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d231"
+  },
+  {
+    "id": 232,
+    "title": "Mobile Operational Management",
+    "description": "Create a predictable management environment for mobile devices capable of installing, executing, profiling, updating, and removing JavaTM and associated native components in the J2METM Connected Device Configuration.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d232"
+  },
+  {
+    "id": 234,
+    "title": "Advanced Multimedia Supplements",
+    "description": "This specification will define an optional package for advanced multimedia functionality which is targeted to run as an supplement in connection with MMAPI (JSR-135) in J2ME/CLDC environment.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d234"
+  },
+  {
+    "id": 235,
+    "title": "Service Data Objects",
+    "description": "Defines core infrastructure APIs for heterogeneous data access that supports common application design patterns and supports higher-level tools and frameworks.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d235"
+  },
+  {
+    "id": 236,
+    "title": "Concurrency Utilities for JavaTM EE",
+    "description": "Concurrency Utilities for Java EE provides a simple, standardized API for using concurrency from application components without compromising container integrity while still preserving the Java EE platform\u0027s fundamental benefits.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d236"
+  },
+  {
+    "id": 238,
+    "title": "Mobile Internationalization API",
+    "description": "This JSR defines an API that provides culturally correct data formatting, sorting of text strings and application resource processing for J2ME MIDlets running in MIDP over CLDC.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d238"
+  },
+  {
+    "id": 239,
+    "title": "JavaTM Binding for the OpenGL® ES API",
+    "description": "JavaTM bindings to the OpenGL ES (Embedded Subset) native 3D graphics library.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d239"
+  },
+  {
+    "id": 240,
+    "title": "JAINTM SLEE (JSLEE) v1.1",
+    "description": "This JSR is a logical extension to address gaps in JSLEE v1.0 specification. The central area of focus is to specify the Resource Adaptor Architecture API and semantics.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d240"
+  },
+  {
+    "id": 242,
+    "title": "Digital Set Top Box Profile - \"On Ramp to OCAP\"",
+    "description": "The requested specification will define a J2ME profile based on the Connected Limited Device Configuration (CLDC) that is appropriate for use by small-footprint cable television set top boxes.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d242"
+  },
+  {
+    "id": 243,
+    "title": "JavaTM Data Objects 2.0 - An Extension to the JDO specification",
+    "description": "The high level objectives are to make JDO easier to use, closely align JDO with J2EE, standardize JDO\u0027s database support, and broaden the scope of JDO.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d243"
+  },
+  {
+    "id": 244,
+    "title": "JavaTM Platform, Enterprise Edition 5 (Java EE 5) Specification",
+    "description": "This JSR is to develop Java EE 5, the next release of the Java Platform, Enterprise Edition, targeted to ship in the second quarter of 2006.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d244"
+  },
+  {
+    "id": 245,
+    "title": "JavaServerTM Pages 2.1",
+    "description": "This is the next revision of the JavaServerTM Pages specification. The purpose of JSP 2.1 is to improve alignment with JavaServerTM Faces (JSF) and enhance ease of development.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d245"
+  },
+  {
+    "id": 248,
+    "title": "Mobile Service Architecture",
+    "description": "This JSR creates a mobile service architecture and platform definition for the high volume wireless handsets continuing the work started in JSR-185 and enhancing the definition with new technologies.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d248"
+  },
+  {
+    "id": 250,
+    "title": "Common Annotations for the JavaTM Platform",
+    "description": "This JSR will develop annotations for common semantic concepts in the J2SE and J2EE platforms that apply across a variety of individual technologies.",
+    "status": "Active",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d250"
+  },
+  {
+    "id": 252,
+    "title": "JavaServer Faces 1.2",
+    "description": "This JSR is an update to the 1.1 version of the JavaServer Faces specification. Its scope goes beyond a JCP maintenance release, but is short of a new feature release.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d252"
+  },
+  {
+    "id": 253,
+    "title": "Mobile Telephony API (MTA)",
+    "description": "This JSR creates a mobile telephony API and platform definition which utilizes common telephony features and is small and simple to suite to high volume devices with limited resources.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d253"
+  },
+  {
+    "id": 254,
+    "title": "OSS Discovery API",
+    "description": "Provide an API that allows network discovery applications to be developed and integrated with other OSS/J enabled applications.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d254"
+  },
+  {
+    "id": 256,
+    "title": "Mobile Sensor API",
+    "description": "The API provides general Sensor API that extends the usability and choice of sensors for J2ME applications. It defines generic sensor functionality optimized for the resource-constrained devices like mobile devices.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d256"
+  },
+  {
+    "id": 257,
+    "title": "Contactless Communication API",
+    "description": "This specification will define J2ME Optional Packages for contactless communication, one package for bi-directional communication and the other for accessing read-only information.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d257"
+  },
+  {
+    "id": 258,
+    "title": "Mobile User Interface Customization API",
+    "description": "The Mobile User Interface Customization API provides a way to query and modify the user interface customization properties of a mobile device or platform.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d258"
+  },
+  {
+    "id": 263,
+    "title": "Fault Management API",
+    "description": "The Fault Management API provides for the monitoring and management of alarms within an information or a telecommunications network.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d263"
+  },
+  {
+    "id": 264,
+    "title": "Order Management API",
+    "description": "This JSR defines an interface to an Order Management component, with specific extensions for activation and work order management use-cases.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d264"
+  },
+  {
+    "id": 268,
+    "title": "JavaTM Smart Card I/O API",
+    "description": "APIs for APDU based communication with Smart Cards",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d268"
+  },
+  {
+    "id": 269,
+    "title": "Pluggable Annotation Processing API",
+    "description": "Provide an API to allow the processing of JSR 175 annotations (metadata); this will require modeling elements of the Java(TM) programming language as well as processing-specific functionality.",
+    "status": "Active",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d269"
+  },
+  {
+    "id": 270,
+    "title": "JavaTM SE 6 Release Contents",
+    "description": "The Umbrella JSR for the JavaTM SE 6 release.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d270"
+  },
+  {
+    "id": 271,
+    "title": "Mobile Information Device Profile 3",
+    "description": "This JSR will specify the 3rd generation Mobile Information Device Profile, expanding upon the functionality in all areas as well as improving interoperability across devices.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d271"
+  },
+  {
+    "id": 272,
+    "title": "Mobile Broadcast Service API for Handheld Terminals",
+    "description": "This specification will define an optional package in J2ME/MIDP/CLDC environment to provide functionality to handle broadcast content, e.g. to view digital television and to utilize its rich features and services.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d272"
+  },
+  {
+    "id": 279,
+    "title": "Service Connection API for JavaTM ME",
+    "description": "A new high-level API for connection services via frameworks supporting identity based services, discovery, and authentication. The API supports Service Oriented Architectures (SOA) and other similar network service application models.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d279"
+  },
+  {
+    "id": 280,
+    "title": "XML API for JavaTM ME",
+    "description": "This JSR provides a common general purpose XML API for the next generation of mobile devices.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d280"
+  },
+  {
+    "id": 281,
+    "title": "IMS Services API",
+    "description": "This JSR provides a high-level API to access IP Multimedia Subsystem (IMS) services. This API hides IMS technology details and exposes service-level support to enable easy development of IMS applications.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d281"
+  },
+  {
+    "id": 282,
+    "title": "RTSJ version 1.1",
+    "description": "Fill some minor gaps in the RTSJ",
+    "status": "Active",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d282"
+  },
+  {
+    "id": 283,
+    "title": "Content Repository for JavaTM Technology API Version 2.0",
+    "description": "As the version 2.0 of the Content Repository for Java Technology API, the aim is to further expand and refine the specification based on feedback from the community.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d283"
+  },
+  {
+    "id": 284,
+    "title": "Resource Consumption Management API",
+    "description": "The API will allow for partitioning resources (constraints, reservations) among Java applications and for querying about resource availability (notifications). It will also provide means of exposing various kinds of resources.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d284"
+  },
+  {
+    "id": 286,
+    "title": "Portlet Specification 2.0",
+    "description": "Version 2.0 of the Portlet Specification plans to align with J2EE 1.4, integrate other new JSRs relevant for the portlet, and align with the WSRP specification V 2.0.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d286"
+  },
+  {
+    "id": 287,
+    "title": "Scalable 2D Vector Graphics API 2.0 for Java METM",
+    "description": "This specification will define an optional package for rendering enhanced 2D vector graphics and rich media content based on select features from SVG Mobile 1.2, with primary emphasis on MIDP.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d287"
+  },
+  {
+    "id": 289,
+    "title": "SIP Servlet v1.1",
+    "description": "This specification is an enhancement to the SIPServlet specification. The central focus of this JSR is to enhance the existing SIPServlet specification with new requirements determined by the industry.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d289"
+  },
+  {
+    "id": 291,
+    "title": "Dynamic Component Support for JavaTM SE",
+    "description": "Establish a JCP specification for a dynamic component framework supporting existing Java SE environments based on the OSGi dynamic component model specifications.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d291"
+  },
+  {
+    "id": 292,
+    "title": "Supporting Dynamically Typed Languages on the JavaTM Platform",
+    "description": "Add a new bytecode, invokedynamic, that supports efficient and flexible execution of method invocations in the absence of static type information.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d292"
+  },
+  {
+    "id": 293,
+    "title": "Location API 2.0",
+    "description": "This specification defines an optional package that enables the developers to use new enhanced location-based features on the JavaTM ME devices.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d293"
+  },
+  {
+    "id": 298,
+    "title": "Telematics API for JavaTM ME",
+    "description": "This JSR defines the API set for Telematics Service on mobile devices.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d298"
+  },
+  {
+    "id": 299,
+    "title": "Contexts and Dependency Injection for the JavaTM EE platform",
+    "description": "The purpose of this specification is to unify the JSF managed bean component model with the EJB component model, resulting in a significantly simplified programming model for web-based applications.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d299"
+  },
+  {
+    "id": 300,
+    "title": "DRM API for JavaTM ME",
+    "description": "This specification will define an optional package for developing JavaTM ME applications which utilize or interoperate with DRM agents that separately exist in devices.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d300"
+  },
+  {
+    "id": 301,
+    "title": "Portlet 1.0 Bridge for JavaServerTM Faces 1.2",
+    "description": "The Portlet Bridge Specification for JavaServer Faces defines the semantics of a JSR 168/JSR 286 portlet that proxies for JSF artifacts.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d301"
+  },
+  {
+    "id": 302,
+    "title": "Safety Critical JavaTM Technology",
+    "description": "This specification creates a J2METM capability, based on the Real-Time Specification for Java (JSR-1), containing minimal features necessary for safety critical systems capable of certification, e.g., DO-178B.",
+    "status": "Active",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d302"
+  },
+  {
+    "id": 303,
+    "title": "Bean Validation",
+    "description": "This JSR will define a meta-data model and API for JavaBeanTM validation based on annotations, with overrides and extended meta-data through the use of XML validation descriptors.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d303"
+  },
+  {
+    "id": 308,
+    "title": "Annotations on Java Types",
+    "description": "This JSR extends the Java annotation syntax to permit annotations on any occurrence of a type. Previously, annotations could not be placed on generic type arguments, type casts, etc.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d308"
+  },
+  {
+    "id": 309,
+    "title": "Media Server Control API",
+    "description": "This Specification is a protocol agnostic API for Media Server Control. It provides a portable interface to create media rich applications with IVR, Conferencing, Speech Recognition, and similar features.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d309"
+  },
+  {
+    "id": 310,
+    "title": "Date and Time API",
+    "description": "This JSR will provide a new and improved date and time API for Java.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d310"
+  },
+  {
+    "id": 311,
+    "title": "JAX-RS: The JavaTM API for RESTful Web Services",
+    "description": "This JSR will develop an API for providing support for RESTful(Representational State Transfer) Web Services in the Java Platform.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d311"
+  },
+  {
+    "id": 314,
+    "title": "JavaServer Faces 2.0",
+    "description": "This JSR is an update to the 1.2 version of the JavaServer Faces specification. This is the first major revision of the JavaServer Faces specification since JSR 127.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d314"
+  },
+  {
+    "id": 315,
+    "title": "JavaTM Servlet 3.0 Specification",
+    "description": "This JSR will be an update to the existing Servlet 2.5 specification.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d315"
+  },
+  {
+    "id": 316,
+    "title": "JavaTM Platform, Enterprise Edition 6 (Java EE 6) Specification",
+    "description": "This JSR is to develop Java EE 6, a release of the Java Platform, Enterprise Edition targeted to ship in 2008.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d316"
+  },
+  {
+    "id": 317,
+    "title": "JavaTM Persistence 2.0",
+    "description": "The Java Persistence API is the Java API for the management of persistence and object/relational mapping for Java EE and Java SE environments.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d317"
+  },
+  {
+    "id": 318,
+    "title": "Enterprise JavaBeansTM 3.1/Interceptors 1.2",
+    "description": "Enterprise JavaBeans is an architecture for the development and deployment of component-based business applications.",
+    "status": "Active",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d318"
+  },
+  {
+    "id": 319,
+    "title": "Availability Management for Java",
+    "description": "This JSR will provide an API by which an availability management framework can supervise and control Java runtime units in order to achieve high availability.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d319"
+  },
+  {
+    "id": 321,
+    "title": "Trusted Computing API for JavaTM",
+    "description": "Develop a Trusted Computing API for JavaTM providing selected functionality the TCG Software Stack offers to the C world, while following the conventions of modern Java APIs.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d321"
+  },
+  {
+    "id": 322,
+    "title": "JavaTM EE Connector Architecture 1.6",
+    "description": "The Java EE Connector Architecture 1.5 defines a standard architecture for connecting to Enterprise Information Systems. This JSR will enhance the existing specification with features requested by experts and community.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d322"
+  },
+  {
+    "id": 325,
+    "title": "IMS Communication Enablers (ICE)",
+    "description": "This specification will define a high level, IMS Communications Enabler framework API that will provide Java ME based devices effortless access to a set of essential IMS Communication Enablers.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d325"
+  },
+  {
+    "id": 329,
+    "title": "Portlet 2.0 Bridge for JavaServerTM Faces 1.2 Specification",
+    "description": "The Portlet 2.0 Bridge defines the semantics for executing JavaServer Faces views within a portlet.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d329"
+  },
+  {
+    "id": 330,
+    "title": "Dependency Injection for Java",
+    "description": "We propose to maximize reusability, testability and maintainability of Java code by standardizing an extensible dependency injection API.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d330"
+  },
+  {
+    "id": 331,
+    "title": "Constraint Programming API",
+    "description": "This specification defines a Java runtime API for constraint programming. The CP API prescribes a set of fundamental operations used to define and solve constraint satisfaction and optimization problems.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d331"
+  },
+  {
+    "id": 334,
+    "title": "Small Enhancements to the JavaTM Programming Language",
+    "description": "A successor to JSR 201 to enhance the Java programming language with an assortment of small changes to improve productivity. Changes must be simultaneously small in specification, implementation, and testing.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d334"
+  },
+  {
+    "id": 335,
+    "title": "Lambda Expressions for the JavaTM Programming Language",
+    "description": "Extend the Java language to support compact lambda expressions (closures), as well as related language and library features to enable the Java SE APIs to use lambda expressions effectively.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d335"
+  },
+  {
+    "id": 336,
+    "title": "JavaTM SE 7 Release Contents",
+    "description": "The Umbrella JSR for the seventh edition of the Java SE Platform",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d336"
+  },
+  {
+    "id": 337,
+    "title": "JavaTM SE 8 Release Contents",
+    "description": "The Umbrella JSR for the eighth edition of the Java SE Platform",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d337"
+  },
+  {
+    "id": 338,
+    "title": "JavaTM Persistence 2.1",
+    "description": "The Java Persistence API is the Java API for the management of persistence and object/relational mapping in Java EE and Java SE environments.",
+    "status": "Active",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d338"
+  },
+  {
+    "id": 339,
+    "title": "JAX-RS 2.0: The Java API for RESTful Web Services",
+    "description": "This JSR will develop the next version of JAX-RS, the API for for RESTful (Representational State Transfer) Web Services in the Java Platform.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d339"
+  },
+  {
+    "id": 340,
+    "title": "Java Servlet 3.1 Specification",
+    "description": "This JSR is to develop the next version of Java Servlets - Java Servlets 3.1",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d340"
+  },
+  {
+    "id": 341,
+    "title": "Expression Language 3.0",
+    "description": "This is an update to Expression Language 2.2, currently part of JSR 245, JavaServer Page (JSP) 2.2.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d341"
+  },
+  {
+    "id": 342,
+    "title": "JavaTM Platform, Enterprise Edition 7 (Java EE 7) Specification",
+    "description": "This JSR will develop Java EE 7, the next version of the Java Platform, Enterprise Edition.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d342"
+  },
+  {
+    "id": 343,
+    "title": "JavaTM Message Service 2.0",
+    "description": "This is an update to the Java Message Service API, an existing API for accessing enterprise messaging systems from Java programs.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d343"
+  },
+  {
+    "id": 344,
+    "title": "JavaServerTM Faces 2.2",
+    "description": "This JSR is an update to the 2.1 version of the JavaServer Faces specification. This is the first major revision of the JavaServer Specification since JSR 314.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d344"
+  },
+  {
+    "id": 345,
+    "title": "Enterprise JavaBeansTM 3.2",
+    "description": "Enterprise JavaBeans is an architecture for the development and deployment of component-based business applications.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d345"
+  },
+  {
+    "id": 346,
+    "title": "Contexts and Dependency Injection for JavaTM EE 1.1",
+    "description": "Updates and clarifications to CDI 1.0 along much requested features.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d346"
+  },
+  {
+    "id": 348,
+    "title": "Towards a new version of the Java Community Process",
+    "description": "This JSR proposes a variety of changes and adjustments to the Java Community Process.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d348"
+  },
+  {
+    "id": 349,
+    "title": "Bean Validation 1.1",
+    "description": "Bean Validation standardizes constraint definition, declaration and validation for the Java platform. For more information on Bean Validation and how to participate, check out http://beanvalidation.org.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d349"
+  },
+  {
+    "id": 352,
+    "title": "Batch Applications for the Java Platform",
+    "description": "This JSR specifies a programming model for batch applications and a runtime for scheduling and executing jobs.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d352"
+  },
+  {
+    "id": 353,
+    "title": "JavaTM API for JSON Processing",
+    "description": "The Java API for JSON Processing (JSON-P) JSR will develop a Java API to process (for e.g. parse, generate, transform and query) JSON.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d353"
+  },
+  {
+    "id": 354,
+    "title": "Money and Currency API",
+    "description": "Provides an API for representing, transporting, and performing comprehensive calculations with Money and Currency.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d354"
+  },
+  {
+    "id": 355,
+    "title": "JCP Executive Committee Merge",
+    "description": "Since Java is One Platform this JSR will merge the two Executive Committees into one, and will reduce the total number of EC members.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d355"
+  },
+  {
+    "id": 356,
+    "title": "JavaTM API for WebSocket",
+    "description": "The Java API for WebSocket JSR will define a standard API for creating WebSocket applications.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d356"
+  },
+  {
+    "id": 359,
+    "title": "SIP Servlet 2.0",
+    "description": "SIP Servlet API is the standard platform for implementing SIP based services.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d359"
+  },
+  {
+    "id": 360,
+    "title": "Connected Limited Device Configuration 8",
+    "description": "CLDC 8 will be an evolutionary update to CLDC 1.1.1 to bring the VM, Java Language, and libraries up to date with Java SE 8.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d360"
+  },
+  {
+    "id": 361,
+    "title": "JavaTM ME Embedded Profile",
+    "description": "Update IMP(-NG) to align with state-of-the-art features and current embedded device market requirements.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d361"
+  },
+  {
+    "id": 362,
+    "title": "Portlet Specification 3.0",
+    "description": "This update to the Portlet Specification will address progress in Java EE, client-side web, and mobile technology that has taken place since JSR286 Portlet Specification 2.0 became final in 2008.",
+    "status": "Active",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d362"
+  },
+  {
+    "id": 363,
+    "title": "Units of Measurement API",
+    "description": "This JSR specifies Java packages for modeling and working with measurement values, quantities and their corresponding units.",
+    "status": "Active",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d363"
+  },
+  {
+    "id": 364,
+    "title": "Broadening JCP Membership",
+    "description": "This aims to broaden JCP participation by defining new membership classes, changing existing membership categories, enabling participation by the community, and ensuring the appropriate Intellectual Property commitments from JCP Members.",
+    "status": "Active",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d364"
+  },
+  {
+    "id": 365,
+    "title": "Contexts and Dependency Injection for JavaTM 2.0",
+    "description": "This JSR is a major evolution of the CDI 1.1 (JSR 346) specification. Focused on modularity and Java SE support.",
+    "status": "Active",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d365"
+  },
+  {
+    "id": 366,
+    "title": "Java Platform, Enterprise Edition 8 (Java EE 8) Specification",
+    "description": "This JSR is to develop Java EE 8, the next release of the Java Platform, Enterprise Edition.",
+    "status": "Active",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d366"
+  },
+  {
+    "id": 367,
+    "title": "JavaTM API for JSON Binding (JSON-B)",
+    "description": "A standard binding layer (metadata \u0026 runtime) for converting Java objects to/from JSON messages.",
+    "status": "Active",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d367"
+  },
+  {
+    "id": 369,
+    "title": "JavaTM Servlet 4.0 Specification",
+    "description": "This JSR aims to expose the latest advances in HTTP to users of JavaEE as well as providing a vehicle for continual improvement in this foundational Java EE API.",
+    "status": "Active",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d369"
+  },
+  {
+    "id": 370,
+    "title": "JavaTM API for RESTful Web Services (JAX-RS 2.1) Specification",
+    "description": "This JSR is to develop JAX-RS 2.1, the next release of Java API for RESTful Web Services.",
+    "status": "Active",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d370"
+  },
+  {
+    "id": 371,
+    "title": "Model-View-Controller (MVC 1.0) Specification",
+    "description": "This JSR is to develop MVC 1.0, a model-view-controller specification for Java EE.",
+    "status": "Active",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d371"
+  },
+  {
+    "id": 372,
+    "title": "JavaServer Faces (JSF 2.3) Specification.",
+    "description": "This JSR is to develop JSF 2.3, the next release of Java Server Faces.",
+    "status": "Active",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d372"
+  },
+  {
+    "id": 374,
+    "title": "JavaTM API for JSON Processing 1.1",
+    "description": "This JSR is to provide an update for the Java API for JSON Processing Specification.",
+    "status": "Active",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d374"
+  },
+  {
+    "id": 375,
+    "title": "JavaTM EE Security API",
+    "description": "The goal of this JSR is to improve the Java EE platform by ensuring the Security API aspect is useful in the modern cloud/PaaS application paradigm.",
+    "status": "Active",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d375"
+  },
+  {
+    "id": 376,
+    "title": "JavaTM Platform Module System",
+    "description": "Define a module system for the Java Platform.",
+    "status": "Active",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d376"
+  },
+  {
+    "id": 377,
+    "title": "Desktop|Embedded Application API",
+    "description": "The purpose of this specification is to standardize common behavior found in desktop \u0026 embedded applications",
+    "status": "Active",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d377"
+  },
+  {
+    "id": 378,
+    "title": "Portlet 3.0 Bridge for JavaServerTM Faces 2.2 Specification",
+    "description": "The Java Portlet 3.0 Bridge for JavaServer Faces 2.2 Specification defines the required behavior of a control environment that enables JSF applications to be accessed as Java portlets.",
+    "status": "Active",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d378"
+  },
+  {
+    "id": 379,
+    "title": "JavaTM SE 9 Release Contents",
+    "description": "The Umbrella JSR for the ninth edition of the Java SE Platform.",
+    "status": "Active",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d379"
+  },
+  {
+    "id": 380,
+    "title": "Bean Validation 2.0",
+    "description": "This JSR aims at evolving the Bean Validation specification by leveraging Java 8 language constructs for the purposes of validation.",
+    "status": "Active",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d380"
+  },
+  {
+    "id": 901,
+    "title": "JavaTM Language Specification",
+    "description": "This specification includes all changes, clarifications and amendments made to the JavaTM programming language since the publication of the first edition of the language specification.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d901"
+  },
+  {
+    "id": 902,
+    "title": "JavaTM Servlet API Specification, Version 2.2, Errata Sheet, 4/1/2000",
+    "description": "Maintenance revision for the JavaTM Servlet API Specification, version 2.2.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d902"
+  },
+  {
+    "id": 903,
+    "title": "JavaTM Servlet API Specification, Version 2.2, Errata Sheet, 4/27/2000",
+    "description": "Maintenance revision for the JavaTM Servlet API Specification, version 2.2.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d903"
+  },
+  {
+    "id": 904,
+    "title": "JavaMailTM Specification",
+    "description": "Maintenance revision 1.2 for the JavaMailTM API.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d904"
+  },
+  {
+    "id": 905,
+    "title": "Enterprise JavaBeansTM Specification Version 1.1, Errata Sheet, 5/4/2000",
+    "description": "Maintenance revision for the Enterprise JavaBeansTM Specification, version 1.1.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d905"
+  },
+  {
+    "id": 906,
+    "title": "JavaServer PagesTM Specification Version 1.1, Errata Sheet 2000.04.28",
+    "description": "The Errata Sheet for 2000.04.28.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d906"
+  },
+  {
+    "id": 907,
+    "title": "JavaTM Transaction API (JTA)",
+    "description": "Revisions to the JTA specification.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d907"
+  },
+  {
+    "id": 908,
+    "title": "JavaTM Media Framework, version 2.0 - Minor changes",
+    "description": "Minor changes to the RTP section.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d908"
+  },
+  {
+    "id": 909,
+    "title": "JavaTM Specification Participation Agreement",
+    "description": "The Maintenance Review of the JSPA revisions.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d909"
+  },
+  {
+    "id": 910,
+    "title": "JDBC 2.1 Errata Sheet",
+    "description": "Errata Sheet of JDBC 2.1 for Maintenance review.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d910"
+  },
+  {
+    "id": 911,
+    "title": "API Specification Differences in Ladybird",
+    "description": "This details the specification differences between Ladybird and Kestrel.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d911"
+  },
+  {
+    "id": 912,
+    "title": "Java 3DTM API 1.3",
+    "description": "Version 1.3 of the Java 3D API.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d912"
+  },
+  {
+    "id": 913,
+    "title": "JCP 2.0",
+    "description": "This is the Maintenance Revision of the JCP 2.0 EC Voting rules.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d913"
+  },
+  {
+    "id": 914,
+    "title": "JavaTM Message Service (JMS) API",
+    "description": "JavaTM Message Service API Errata.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d914"
+  },
+  {
+    "id": 915,
+    "title": "J2SETM 1.4 (Merlin) Maintenance Review",
+    "description": "Details of specification changes made in version 1.4 (\"Merlin\") of the JavaTM 2 Platform, Standard Edition.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d915"
+  },
+  {
+    "id": 916,
+    "title": "J2SETM 1.4 (Merlin) Beta 2 Maintenance Review",
+    "description": "Details of specification changes made in version 1.4 (\"Merlin\") of the JavaTM 2 Platform, Standard Edition.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d916"
+  },
+  {
+    "id": 917,
+    "title": "J2SETM 1.4 (Merlin) Beta 3 Maintenance Review",
+    "description": "Details of specification changes made in version 1.4 (\"Merlin\") of the JavaTM 2 Platform, Standard Edition.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d917"
+  },
+  {
+    "id": 918,
+    "title": "J2SETM 1.4 Release Candidate",
+    "description": "Define the major features of the J2SETM 1.4 release.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d918"
+  },
+  {
+    "id": 919,
+    "title": "JavaMailTM",
+    "description": "A description of the new APIs that are being introduced in JavaMail.",
+    "status": "Active",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d919"
+  },
+  {
+    "id": 920,
+    "title": "JMF 2.1.1.",
+    "description": "Maintenance Review of the JMF specification, version 2.1.1.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d920"
+  },
+  {
+    "id": 921,
+    "title": "Implementing Enterprise Web Services 1.1",
+    "description": "This is a Maintenance Revision of the Implementing Enterprise Web Services 1.1 Specification.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d921"
+  },
+  {
+    "id": 923,
+    "title": "J2SETM 1.4.2 (Mantis) Beta",
+    "description": "Descriptions of specification changes being made in version 1.4.2 (\"Mantis\") of the JavaTM 2 Platform, Standard Edition (J2SETM).",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d923"
+  },
+  {
+    "id": 924,
+    "title": "JavaTM Virtual Machine Specification",
+    "description": "Maintenance review of changes to the JavaTM Virtual Machine Specification, Second Edition for J2SE 1.5",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d924"
+  },
+  {
+    "id": 925,
+    "title": "JavaBeansTM Activation Framework 1.1",
+    "description": "JavaBeans Activation Framework 1.1 proposes a few minor changes to the JAF APIs to address the most commonly requested enhancements.",
+    "status": "Active",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d925"
+  },
+  {
+    "id": 926,
+    "title": "Java 3DTM",
+    "description": "Maintenance of the Java 3D specification.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d926"
+  },
+  {
+    "id": 927,
+    "title": "JavaTM TV API 1.1",
+    "description": "The maintenance of the Java TV specification.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d927"
+  }
+]

@@ -1,0 +1,184 @@
+[
+{
+  "id" : "53-jsp",
+  "packages" : ["javax.servlet.jsp"]
+},
+{
+  "id" : "53-servlet",
+  "packages" : ["javax.servlet"]
+},
+{
+  "id" : 107,
+  "packages" : ["javax.cache"]
+},
+{
+  "id" : 152,
+  "succeeds" : "53-jsp"
+},
+{
+  "id" : 154,
+  "succeeds" : "53-servlet"
+},
+{
+  "id" : 168,
+  "packages" : ["javax.portlet"]
+},
+{
+  "id" : 221,
+  "packages" : ["java.sql", "javax.sql"]
+},
+{
+  "id" : 250,
+  "packages" : ["javax.annotation"]
+},
+{
+  "id" : 252,
+  "packages" : ["javax.faces"]
+},
+{
+  "id" : 245,
+  "packages" : ["javax.servlet.jsp"]
+},
+{
+  "id" : "245-el",
+  "title" : "JavaServer Pages 2.1 Expression Language Specification",
+  "packages" : ["javax.el"]
+},
+{
+  "id" : 286,
+  "succeeds" : 168
+},
+{
+  "id" : 299,
+  "packages" : ["javax.enterprise.context", "javax.enterprise.event", "javax.enterprise.inject"]
+},
+{
+  "id" : 311,
+  "packages" : ["javax.ws.rs"]
+},
+{
+  "id" : 315,
+  "succeeds" : 154
+},
+{
+  "id" : 340,
+  "succeeds" : 315
+},
+{
+  "id" : 369,
+  "succeeds" : 340
+},
+{
+  "id" : 339,
+  "succeeds" : 311,
+  "packages" : ["javax.ws.rs", "javax.ws.rs.client"]
+},
+{
+  "id" : 370,
+  "succeeds" : 339
+},
+{
+  "id" : 341,
+  "succeeds" : "245-el"
+},
+{
+  "id" : 366,
+  "umbrella" : [369, 370, 907],
+  "tags" : ["JavaEE8"]
+},
+{
+  "id" : 342,
+  "umbrella" : [339, 340, 345],
+  "tags" : ["JavaEE7"]
+},
+{
+  "id" : 316,
+  "umbrella" : [311, 315, 152, 318],
+  "tags" : ["JavaEE6"]
+},
+{
+  "id" : 244,
+  "umbrella" : [311, 154],
+  "tags" : ["JavaEE5"]
+},
+{
+  "id" : 151,
+  "umbrella" : [154],
+  "tags" : ["J2EE1.4"]
+},
+{
+  "id" : 58,
+  "umbrella" : [53],
+  "tags" : ["J2EE1.3"]
+},
+{
+  "id" : 222,
+  "packages" : ["javax.xml.bind"]
+},
+{
+  "id" : 224,
+  "packages" : ["javax.xml.ws"]
+},
+{
+  "id" : 181,
+  "packages" : ["javax.jws"]
+},
+{
+  "id" : 220,
+  "packages" : ["javax.ejb"]
+},
+{
+  "id" : "318-ejb",
+  "succeeds" : 220,
+  "title" : "Enterprise JavaBeansTM 3.1"
+},
+{
+  "id" : "318-interceptors",
+  "packages" : ["javax.interceptor"],
+  "title" : "Interceptors 1.2"
+},
+{
+  "id" : 345,
+  "succeeds" : "318-ejb"
+},
+{
+  "id" : 303,
+  "packages" : ["javax.validation"]
+},
+{
+  "id" : 349,
+  "succeeds" : 303
+},
+{
+  "id" : 236,
+  "packages" : ["javax.enterprise.concurrent"]
+},
+{
+  "id" : 925,
+  "packages" : ["javax.activation"]
+},
+{
+  "id" : 907,
+  "packages" : ["javax.transaction"]
+},
+{
+  "id" : "220-simplified",
+   "packages" : ["javax.ejb", "javax.interceptor"]
+},
+{
+  "id" : "220-ejbcore",
+   "packages" : ["javax.ejb"]
+},
+{
+  "id" : "220-persistence",
+   "packages" : ["javax.persistence"]
+},
+{
+  "id" : 317,
+   "succeeds" : "220-persistence"
+},
+{
+  "id" : 338,
+  "succeeds" : 317
+}
+]

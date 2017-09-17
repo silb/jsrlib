@@ -36,7 +36,7 @@ Then download the interceptors variant:
 
 For help on further usage:
 
-    java org.secnod.jsr.cli.Tool
+    java org.secnod.jsr.cli.Tool help
 
 
 # Legal

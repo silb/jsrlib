@@ -180,5 +180,11 @@
 {
   "id" : 338,
   "succeeds" : 317
+},
+{
+  "id" : 919,
+  "packages" : ["javax.mail"],
+  "title" : "JavaMail™"
 }
+
 ]

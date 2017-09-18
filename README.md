@@ -109,6 +109,9 @@ Examples:
     * 1.1 for Java EE 5 and Java EE 6
     * [1.0.1B, 1.0.1 and 1.0.1a](http://www.oracle.com/technetwork/java/javaee/tech/jta-138684.html)
       for J2EE
+ * [JSR 919](https://jcp.org/en/jsr/detail?id=919) specifies
+   [multiple versions](https://stackoverflow.com/questions/45723816/single-jsr-multiple-api-versions)
+   of JavaMail™.
 
 Currently Jsrlib picks the latest final or maintenance release of a JSR.
 

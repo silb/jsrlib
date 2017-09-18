@@ -13,12 +13,13 @@ and performs downloads by screen scraping <https://www.jcp.org>.
 
 # Command line usage
 
-    mvn package
-    export CLASSPATH="target/classes:target/test-classes:$(mvn dependency:build-classpath | grep -v '^\[')"
+    mvn compile
+    export CLASSPATH="$PWD/target/classes:$(mvn dependency:build-classpath | grep -v '^\[')"
+    alias jsrlib='java org.secnod.jsr.cli.Tool'
 
 List JSRs that specify a given package:
 
-    java org.secnod.jsr.cli.Tool query package javax.ws.rs
+    jsrlib query package javax.ws.rs
     JSR 370: JavaTM API for RESTful Web Services (JAX-RS 2.1) Specification
       Description: This JSR is to develop JAX-RS 2.1, the next release of Java API for RESTful Web Services.
       Link: https://www.jcp.org/en/jsr/detail?id=370
@@ -42,12 +43,12 @@ List JSRs that specify a given package:
 
 Then download it:
 
-    java org.secnod.jsr.cli.Tool download jsr 370 .
+    jsrlib download jsr 370 .
     ./JSR-370-jaxrs2_1finalspec.pdf
 
 List all variants of JSR 318:
 
-    java org.secnod.jsr.cli.Tool list jsr 318
+    jsrlib list jsr 318
     JSR 318-ejb: Enterprise JavaBeansTM 3.1
       Description: Enterprise JavaBeans is an architecture for the development and deployment of component-based business applications.
       Link: https://www.jcp.org/en/jsr/detail?id=318
@@ -63,12 +64,12 @@ List all variants of JSR 318:
 
 Then download the interceptors variant:
 
-    java org.secnod.jsr.cli.Tool download jsr 318-interceptors .
+    jsrlib download jsr 318-interceptors .
     ./JSR-318-interceptors-Intercept.pdf
 
 For help on further usage:
 
-    java org.secnod.jsr.cli.Tool help
+    jsrlib help
 
 
 # Legal

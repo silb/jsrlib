@@ -185,6 +185,9 @@
   "id" : 919,
   "packages" : ["javax.mail"],
   "title" : "JavaMail™"
+},
+{
+  "id" : 367,
+  "packages" : ["javax.json.bind"]
 }
-
 ]

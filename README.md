@@ -14,8 +14,7 @@ and performs downloads by screen scraping <https://www.jcp.org>.
 # Command line usage
 
     mvn compile
-    export CLASSPATH="$PWD/target/classes:$(mvn dependency:build-classpath | grep -v '^\[')"
-    alias jsrlib='java org.secnod.jsr.cli.Tool'
+    alias jsrlib="java -cp \"$PWD/target/classes:$(mvn dependency:build-classpath | grep -v '^\[')\" org.secnod.jsr.cli.Tool"
 
 List JSRs that specify a given package:
 

@@ -87,7 +87,7 @@ public class UrlFetcher {
         connections.add(con);
         con.setInstanceFollowRedirects(false);
         int status = con.getResponseCode();
-        if (status == 302) {
+        if (status == 301 || status == 302) {
             // HttpURLConnection doesn't follow redirects from http to https automatically.
             if (redirectNo > redirectLimit) throw new IOException("Redirect limit " + redirectLimit + " exceeded.");
             redirectNo++;

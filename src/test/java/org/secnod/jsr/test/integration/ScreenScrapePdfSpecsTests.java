@@ -1,6 +1,7 @@
 package org.secnod.jsr.test.integration;
 
 import static org.hamcrest.CoreMatchers.endsWith;
+import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.Assert.*;
 
 import java.io.File;

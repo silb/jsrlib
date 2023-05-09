@@ -325,7 +325,7 @@
     "id": 67,
     "title": "JavaTM APIs for XML Messaging 1.0",
     "description": "JAXM provides an API for packaging and transporting business transactions using on-the-wire protocols being defined by ebXML.org, Oasis, W3C and IETF.",
-    "status": "Active",
+    "status": "Maintenance",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d67"
   },
   {
@@ -465,7 +465,7 @@
     "id": 107,
     "title": "JCACHE - Java Temporary Caching API",
     "description": "Specifies API and semantics for temporary, in memory caching of Java objects, including object creation, shared access, spooling, invalidation, and consistency across JVM\u0027s.",
-    "status": "Final",
+    "status": "Maintenance",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d107"
   },
   {
@@ -829,7 +829,7 @@
     "id": 199,
     "title": "JavaTM Compiler API",
     "description": "A service provider API that allows a Java program to select and invoke a Java Language Compiler programmatically.",
-    "status": "Active",
+    "status": "Maintenance",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d199"
   },
   {
@@ -948,21 +948,21 @@
     "id": 221,
     "title": "JDBCTM 4.0 API Specification",
     "description": "This specification seeks to improve Java application access to SQL data stores by the provision of ease-of-development focused features and improvements at both the utility and API level.",
-    "status": "Active",
+    "status": "Maintenance",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d221"
   },
   {
     "id": 222,
     "title": "JavaTM Architecture for XML Binding (JAXB) 2.0",
     "description": "JAXB 2.0 is the next version of JAXB, The JavaTM Architecture for XML Binding. This JSR proposes additional functionality while retaining ease of development as a key goal.",
-    "status": "Active",
+    "status": "Maintenance",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d222"
   },
   {
     "id": 224,
     "title": "JavaTM API for XML-Based Web Services (JAX-WS) 2.0",
     "description": "The JAX-WS 2.0 specification is the next generation web services API replacing JAX-RPC 1.0.",
-    "status": "Active",
+    "status": "Maintenance",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d224"
   },
   {
@@ -1088,7 +1088,7 @@
     "id": 250,
     "title": "Common Annotations for the JavaTM Platform",
     "description": "This JSR will develop annotations for common semantic concepts in the J2SE and J2EE platforms that apply across a variety of individual technologies.",
-    "status": "Active",
+    "status": "Maintenance",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d250"
   },
   {
@@ -1202,13 +1202,6 @@
     "description": "This JSR provides a high-level API to access IP Multimedia Subsystem (IMS) services. This API hides IMS technology details and exposes service-level support to enable easy development of IMS applications.",
     "status": "Maintenance",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d281"
-  },
-  {
-    "id": 282,
-    "title": "RTSJ version 1.1",
-    "description": "Fill some minor gaps in the RTSJ",
-    "status": "Active",
-    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d282"
   },
   {
     "id": 283,
@@ -1368,22 +1361,8 @@
     "id": 318,
     "title": "Enterprise JavaBeansTM 3.1/Interceptors 1.2",
     "description": "Enterprise JavaBeans is an architecture for the development and deployment of component-based business applications.",
-    "status": "Active",
+    "status": "Maintenance",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d318"
-  },
-  {
-    "id": 319,
-    "title": "Availability Management for Java",
-    "description": "This JSR will provide an API by which an availability management framework can supervise and control Java runtime units in order to achieve high availability.",
-    "status": "Final",
-    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d319"
-  },
-  {
-    "id": 321,
-    "title": "Trusted Computing API for JavaTM",
-    "description": "Develop a Trusted Computing API for JavaTM providing selected functionality the TCG Software Stack offers to the C world, while following the conventions of modern Java APIs.",
-    "status": "Final",
-    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d321"
   },
   {
     "id": 322,
@@ -1391,13 +1370,6 @@
     "description": "The Java EE Connector Architecture 1.5 defines a standard architecture for connecting to Enterprise Information Systems. This JSR will enhance the existing specification with features requested by experts and community.",
     "status": "Maintenance",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d322"
-  },
-  {
-    "id": 325,
-    "title": "IMS Communication Enablers (ICE)",
-    "description": "This specification will define a high level, IMS Communications Enabler framework API that will provide Java ME based devices effortless access to a set of essential IMS Communication Enablers.",
-    "status": "Final",
-    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d325"
   },
   {
     "id": 329,
@@ -1445,14 +1417,14 @@
     "id": 337,
     "title": "JavaTM SE 8 Release Contents",
     "description": "The Umbrella JSR for the eighth edition of the Java SE Platform",
-    "status": "Maintenance",
+    "status": "Active",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d337"
   },
   {
     "id": 338,
-    "title": "JavaTM Persistence 2.1",
+    "title": "JavaTM Persistence 2.2",
     "description": "The Java Persistence API is the Java API for the management of persistence and object/relational mapping in Java EE and Java SE environments.",
-    "status": "Active",
+    "status": "Maintenance",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d338"
   },
   {
@@ -1543,7 +1515,7 @@
     "id": 354,
     "title": "Money and Currency API",
     "description": "Provides an API for representing, transporting, and performing comprehensive calculations with Money and Currency.",
-    "status": "Final",
+    "status": "Maintenance",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d354"
   },
   {
@@ -1585,99 +1557,92 @@
     "id": 362,
     "title": "Portlet Specification 3.0",
     "description": "This update to the Portlet Specification will address progress in Java EE, client-side web, and mobile technology that has taken place since JSR286 Portlet Specification 2.0 became final in 2008.",
-    "status": "Active",
+    "status": "Final",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d362"
   },
   {
     "id": 363,
     "title": "Units of Measurement API",
     "description": "This JSR specifies Java packages for modeling and working with measurement values, quantities and their corresponding units.",
-    "status": "Active",
+    "status": "Final",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d363"
   },
   {
     "id": 364,
     "title": "Broadening JCP Membership",
     "description": "This aims to broaden JCP participation by defining new membership classes, changing existing membership categories, enabling participation by the community, and ensuring the appropriate Intellectual Property commitments from JCP Members.",
-    "status": "Active",
+    "status": "Maintenance",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d364"
   },
   {
     "id": 365,
     "title": "Contexts and Dependency Injection for JavaTM 2.0",
     "description": "This JSR is a major evolution of the CDI 1.1 (JSR 346) specification. Focused on modularity and Java SE support.",
-    "status": "Active",
+    "status": "Final",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d365"
   },
   {
     "id": 366,
     "title": "Java Platform, Enterprise Edition 8 (Java EE 8) Specification",
     "description": "This JSR is to develop Java EE 8, the next release of the Java Platform, Enterprise Edition.",
-    "status": "Active",
+    "status": "Final",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d366"
   },
   {
     "id": 367,
     "title": "JavaTM API for JSON Binding (JSON-B)",
     "description": "A standard binding layer (metadata \u0026 runtime) for converting Java objects to/from JSON messages.",
-    "status": "Active",
+    "status": "Final",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d367"
   },
   {
     "id": 369,
     "title": "JavaTM Servlet 4.0 Specification",
     "description": "This JSR aims to expose the latest advances in HTTP to users of JavaEE as well as providing a vehicle for continual improvement in this foundational Java EE API.",
-    "status": "Active",
+    "status": "Final",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d369"
   },
   {
     "id": 370,
     "title": "JavaTM API for RESTful Web Services (JAX-RS 2.1) Specification",
     "description": "This JSR is to develop JAX-RS 2.1, the next release of Java API for RESTful Web Services.",
-    "status": "Active",
+    "status": "Final",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d370"
   },
   {
     "id": 371,
     "title": "Model-View-Controller (MVC 1.0) Specification",
     "description": "This JSR is to develop MVC 1.0, a model-view-controller specification for Java EE.",
-    "status": "Active",
+    "status": "Final",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d371"
   },
   {
     "id": 372,
     "title": "JavaServer Faces (JSF 2.3) Specification.",
     "description": "This JSR is to develop JSF 2.3, the next release of Java Server Faces.",
-    "status": "Active",
+    "status": "Final",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d372"
   },
   {
     "id": 374,
     "title": "JavaTM API for JSON Processing 1.1",
     "description": "This JSR is to provide an update for the Java API for JSON Processing Specification.",
-    "status": "Active",
+    "status": "Final",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d374"
   },
   {
     "id": 375,
     "title": "JavaTM EE Security API",
     "description": "The goal of this JSR is to improve the Java EE platform by ensuring the Security API aspect is useful in the modern cloud/PaaS application paradigm.",
-    "status": "Active",
+    "status": "Final",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d375"
   },
   {
     "id": 376,
     "title": "JavaTM Platform Module System",
     "description": "Define a module system for the Java Platform.",
-    "status": "Active",
+    "status": "Final",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d376"
-  },
-  {
-    "id": 377,
-    "title": "Desktop|Embedded Application API",
-    "description": "The purpose of this specification is to standardize common behavior found in desktop \u0026 embedded applications",
-    "status": "Active",
-    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d377"
   },
   {
     "id": 378,
@@ -1690,15 +1655,120 @@
     "id": 379,
     "title": "JavaTM SE 9 Release Contents",
     "description": "The Umbrella JSR for the ninth edition of the Java SE Platform.",
-    "status": "Active",
+    "status": "Final",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d379"
   },
   {
     "id": 380,
     "title": "Bean Validation 2.0",
     "description": "This JSR aims at evolving the Bean Validation specification by leveraging Java 8 language constructs for the purposes of validation.",
-    "status": "Active",
+    "status": "Final",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d380"
+  },
+  {
+    "id": 381,
+    "title": "Visual Recognition (VisRec) Specification",
+    "description": "Java APIs for detecting, recognizing and annotating images with focus on the content of the images, facial detection, facial emotions, image tagging, specifying image classifiers and training the visual data.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d381"
+  },
+  {
+    "id": 383,
+    "title": "Java™ SE 10 (18.3)",
+    "description": "The JSR for the Java SE 10 (18.3) Platform",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d383"
+  },
+  {
+    "id": 384,
+    "title": "JavaTM SE 11 (18.9)",
+    "description": "The JSR for the Java SE 11 (18.9) Platform.",
+    "status": "Active",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d384"
+  },
+  {
+    "id": 385,
+    "title": "Units of Measurement API 2.0",
+    "description": "This JSR is a major evolution of the Unit API 1.0 (JSR 363) specification. Focused on the SI System redefinition, modularity and support for Java SE 8/9 and above.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d385"
+  },
+  {
+    "id": 386,
+    "title": "JavaTM SE 12",
+    "description": "The JSR for the Java SE 12 Platform.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d386"
+  },
+  {
+    "id": 387,
+    "title": "Streamline the JCP Program",
+    "description": "This JSR will make changes to the Process Document with the goals of further streamlining the organization\u0027s processes.",
+    "status": "Maintenance",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d387"
+  },
+  {
+    "id": 388,
+    "title": "JavaTM SE 13",
+    "description": "The JSR for the Java SE 13 Platform. The Reference Implementation of this Specification is the Java Development Kit, version 13.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d388"
+  },
+  {
+    "id": 389,
+    "title": "JavaTM SE 14",
+    "description": "The JSR for the Java SE 14 Platform. The Reference Implementation of this Specification is the Java Development Kit, version 14.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d389"
+  },
+  {
+    "id": 390,
+    "title": "JavaTM SE 15",
+    "description": "The JSR for the Java SE 15 Platform. The Reference Implementation of this Specification is the Java Development Kit, version 15.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d390"
+  },
+  {
+    "id": 391,
+    "title": "JavaTM SE 16",
+    "description": "The JSR for the Java SE 16 Platform. The Reference Implementation of this Specification is the Java Development Kit, version 16.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d391"
+  },
+  {
+    "id": 392,
+    "title": "JavaTM SE 17",
+    "description": "The JSR for the Java SE 17 Platform. The Reference Implementation of this Specification is the Java Development Kit, version 17.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d392"
+  },
+  {
+    "id": 393,
+    "title": "JavaTM SE 18",
+    "description": "The JSR for the Java SE 18 Platform. The Reference Implementation of this Specification is the Java Development Kit, version 18.",
+    "status": "Final",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d393"
+  },
+  {
+    "id": 394,
+    "title": "JavaTM SE 19",
+    "description": "The JSR for the Java SE 19 Platform. The Reference Implementation of this Specification is the Java Development Kit, version 19.",
+    "status": "Active",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d394"
+  },
+  {
+    "id": 395,
+    "title": "JavaTM SE 20",
+    "description": "The JSR for the Java SE 20 Platform. The Reference Implementation of this Specification is the Java Development Kit, version 20.",
+    "status": "Active",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d395"
+  },
+  {
+    "id": 396,
+    "title": "JavaTM SE 21",
+    "description": "The JSR for the Java SE 21 Platform. The Reference Implementation of this Specification is the Java Development Kit, version 21.",
+    "status": "Active",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d396"
   },
   {
     "id": 901,
@@ -1830,7 +1900,7 @@
     "id": 919,
     "title": "JavaMailTM",
     "description": "A description of the new APIs that are being introduced in JavaMail.",
-    "status": "Active",
+    "status": "Maintenance",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d919"
   },
   {
@@ -1865,7 +1935,7 @@
     "id": 925,
     "title": "JavaBeansTM Activation Framework 1.1",
     "description": "JavaBeans Activation Framework 1.1 proposes a few minor changes to the JAF APIs to address the most commonly requested enhancements.",
-    "status": "Active",
+    "status": "Maintenance",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d925"
   },
   {

@@ -102,6 +102,9 @@
         <configuration>
           <archive>
             <manifestFile>${project.build.outputDirectory}/META-INF/MANIFEST.MF</manifestFile>
+            <manifestEntries>
+                <Automatic-Module-Name>org.secnod.jsrlib</Automatic-Module-Name>
+            </manifestEntries>
           </archive>
         </configuration>
       </plugin>

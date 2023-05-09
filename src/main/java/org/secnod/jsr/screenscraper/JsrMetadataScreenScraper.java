@@ -72,7 +72,7 @@ public class JsrMetadataScreenScraper {
 
             Element descriptionHeaderColumn = jsrTable.select("tr td:contains(Description)").first();
             if (descriptionHeaderColumn != null) {
-                Element descriptionColumn = descriptionHeaderColumn.siblingElements().select(":matches(.*\\w+.*").first();
+                Element descriptionColumn = descriptionHeaderColumn.siblingElements().select(":matches(.*\\w+.*)").first();
                 if (descriptionColumn != null) jsr.description = descriptionColumn.text();
             }
 

@@ -193,5 +193,14 @@
 {
   "id" : 367,
   "packages" : ["javax.json.bind"]
+},
+{
+  "id" : 914,
+  "packages" : ["javax.jms"]
+},
+{
+  "id" : 343,
+  "succeeds" : 914,
+  "packages" : ["javax.jms"]
 }
 ]

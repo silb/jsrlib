@@ -150,6 +150,10 @@
   "succeeds" : 303
 },
 {
+  "id" : 380,
+  "succeeds" : 349
+},
+{
   "id" : 236,
   "packages" : ["javax.enterprise.concurrent"]
 },

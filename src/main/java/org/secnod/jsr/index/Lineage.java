@@ -1,35 +1,62 @@
 package org.secnod.jsr.index;
 
-import java.util.Collection;
-import java.util.Collections;
+import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.Iterator;
+import java.util.LinkedHashSet;
+import java.util.ListIterator;
+import java.util.Map;
 import java.util.Set;
-import java.util.SortedSet;
-import java.util.TreeSet;
 
 import org.secnod.jsr.Jsr;
 import org.secnod.jsr.JsrId;
 
-class Lineage {
-    final SortedSet<Jsr> jsrs;
+import static java.lang.String.format;
 
-    Lineage() {
-        this.jsrs =  new TreeSet<>();
+class Lineage {
+    private final ArrayList<Jsr> jsrs = new ArrayList<>(); // oldest JSR first
+    private final Map<JsrId, Lineage> lineages;
+
+    Lineage(Jsr jsr, Map<JsrId, Lineage> lineages) {
+        jsrs.add(jsr);
+        this.lineages = lineages;
+        this.lineages.put(jsr.id, this);
     }
 
-    Lineage(Collection<Jsr> jsrs) {
-        this.jsrs = new TreeSet<>(jsrs);
+    /**
+     * Replace the heir of this lineage
+     *
+     * @param heir the newest JSR in this lineage
+     */
+    private void newHeir(Jsr heir) {
+        lineages.remove(heir.succeeds);
+        lineages.put(heir.id, this);
+    }
+
+    void add(Jsr jsr) {
+        if (jsr.succeeds == null)
+            throw new IllegalArgumentException(format("The JSR %s has no predecessor", jsr));
+        for (ListIterator<Jsr> i = jsrs.listIterator(); i.hasNext();) {
+            Jsr predecessor = i.next();
+            if (predecessor.id.equals(jsr.succeeds)) {
+                if (!jsr.specifiesPackages())
+                    // Inheriting package names from earlier revision.
+                    jsr.packages = packageNamesFor(predecessor);
+                i.add(jsr);
+                if (!i.hasNext())
+                    newHeir(jsr);
+                return;
+            }
+        }
+        throw new IllegalStateException(format("JSR %s succeeds unknown JSR %s", jsr, jsr.succeeds));
     }
 
     IndexEntry filterByPackage(String packageName) {
-        TreeSet<Jsr> filtered = new TreeSet<>();
-        for (Iterator<Jsr> i = jsrs.iterator(); i.hasNext();) {
-            Jsr jsr = i.next();
+        var filtered = new LinkedHashSet<Jsr>();
+        for (int i = jsrs.size() - 1; i >= 0; i--) {
+            Jsr jsr = jsrs.get(i);
             if (jsr.packages.contains(packageName))
                 filtered.add(jsr);
         }
-        //return new Lineage(filtered);
         return new IndexEntry(filtered);
     }
 
@@ -48,21 +75,20 @@ class Lineage {
         return null;
     }
 
-    Set<String> packageNamesFor(JsrId jsrId) {
-        Jsr jsr = findJsr(jsrId);
+    private Set<String> packageNamesFor(Jsr jsr) {
         if (jsr.specifiesPackages()) {
             return jsr.packages;
         }
 
         if (jsr.succeeds != null) {
-            return packageNamesFor(jsr.succeeds);
+            return packageNamesFor(findJsr(jsr.succeeds));
         }
 
-        return Collections.emptySet();
+        return Set.of();
     }
 
     Jsr heir() {
-        return jsrs.last();
+        return jsrs.get(jsrs.size());
     }
 
     @Override

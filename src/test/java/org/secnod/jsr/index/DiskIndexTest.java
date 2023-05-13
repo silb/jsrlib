@@ -1,7 +1,5 @@
 package org.secnod.jsr.index;
 
-import static org.secnod.jsr.index.InMemoryJsrIndexTest.asCollection;
-
 import static java.util.Arrays.asList;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -42,7 +40,7 @@ public class DiskIndexTest {
     public void servletJsrs() {
         assertThat(
                 toIds(idx.queryAllByPackage("javax.el")),
-                equalTo(asCollection(JsrId.of(341), JsrId.of(245, "el"))));
+                equalTo(List.of(JsrId.of(341), JsrId.of(245, "el"))));
 
         Collection<JsrId> servletJsrIds = asList(
                 JsrId.of(369),
@@ -79,5 +77,11 @@ public class DiskIndexTest {
         assertThat(
                 toIds(idx.queryAllByPackage("javax.ws.rs.client")),
                 equalTo(jaxRsClientJsrs));
+    }
+
+    @Test
+    public void javaEe7Tags() {
+        var ee7 = List.of(JsrId.of(339), JsrId.of(340), JsrId.of(342), JsrId.of(345));
+        assertThat(toIds(idx.queryByTag("JavaEE7")), equalTo(ee7));
     }
 }

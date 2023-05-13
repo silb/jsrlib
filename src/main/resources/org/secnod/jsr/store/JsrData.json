@@ -200,7 +200,6 @@
 },
 {
   "id" : 343,
-  "succeeds" : 914,
-  "packages" : ["javax.jms"]
+  "succeeds" : 914
 }
 ]

@@ -16,6 +16,12 @@ public class Jsr implements Comparable<Jsr> {
     public Set<JsrId> umbrella;
     public Set<String> tags;
 
+    Jsr() {}
+
+    public Jsr(int jsrNumber) {
+        id = JsrId.of(jsrNumber);
+    }
+
     public Integer getJsrNumber() {
         return id.jsrNumber;
     }
@@ -40,6 +46,16 @@ public class Jsr implements Comparable<Jsr> {
 
     public boolean isUmbrella() {
         return umbrella != null && !umbrella.isEmpty();
+    }
+
+    public void merge(JsrMetadata metadata) {
+        if (metadata == null)
+            return;
+        if (title == null)
+            title = metadata.title;
+        description = metadata.description;
+        status = metadata.status;
+        detailsPage = metadata.detailsPage;
     }
 
     @Override

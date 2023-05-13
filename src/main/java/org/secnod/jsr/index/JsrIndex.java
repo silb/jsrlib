@@ -2,13 +2,14 @@ package org.secnod.jsr.index;
 
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
-import java.util.SortedSet;
+import java.util.SortedMap;
+import java.util.TreeMap;
 import java.util.TreeSet;
 
 import org.secnod.jsr.Jsr;
@@ -43,8 +44,8 @@ public class JsrIndex {
     private final Set<Jsr> jsrs;
     private final Map<String, Collection<IndexEntry>> index;
 
-    private JsrIndex(Set<Jsr> jsrs, Map<String, Collection<IndexEntry>> index) {
-        this.jsrs = jsrs;
+    private JsrIndex(Collection<Jsr> jsrs, Map<String, Collection<IndexEntry>> index) {
+        this.jsrs = new TreeSet<>(jsrs);
         this.index = index;
     }
 
@@ -94,10 +95,9 @@ public class JsrIndex {
                 continue;
             }
 
-            Collections.sort(matches, Collections.reverseOrder()); // Newest JSR (highest JSR number) first
             return matches;
         }
-        return Collections.emptyList();
+        return List.of();
     }
 
     public Collection<Jsr> queryByTag(String tag) {
@@ -161,107 +161,107 @@ public class JsrIndex {
     }
 
     public static class Builder {
-        private SortedSet<Jsr> entries = new TreeSet<>();
+        private SortedMap<JsrId, Jsr> entries = new TreeMap<>(); // ordering by JSR number used as a heuristic for indexing
         private Map<String, Collection<IndexEntry>> index = new HashMap<>();
-        private Collection<JsrMetadata> metadata;
+        private Collection<JsrMetadata> metadata = List.of();
 
-        public Builder() {
+        private Map<Integer, JsrMetadata> metadataIndex = new HashMap<>();
 
-        }
+        private Map<JsrId, Lineage> lineages = new HashMap<>(); // the newest JSR of each lineage
+        private Map<Integer, Set<Jsr>> variantIndex = new HashMap<>(); // variants of each JSR number
+        private Set<Jsr> umbrellas = new HashSet<>();
+
+        public Builder() {}
 
         public Builder data(Collection<Jsr> jsrs) {
-            this.entries.addAll(jsrs);
+            for (Jsr jsr : jsrs)
+                entries.put(jsr.id, jsr);
             return this;
         }
 
         public Builder metadata(Collection<JsrMetadata> metadata) {
-            this.metadata = metadata;
+            if (metadata != null)
+                this.metadata = metadata;
             return this;
         }
 
         public JsrIndex build() {
+            for (Jsr jsr : entries.values())
+                if (jsr.succeeds != null && !entries.containsKey(jsr.succeeds))
+                    throw new IllegalStateException("JSR " + jsr + " succeeds unknown JSR " + jsr.succeeds);
 
-            Map<Integer, JsrMetadata> metadataIndex = new HashMap<>();
+            for (JsrMetadata datum : metadata)
+                metadataIndex.put(datum.id, datum);
 
-            if (metadata != null) {
-                for (JsrMetadata datum : metadata) {
-                    metadataIndex.put(datum.id, datum);
+            var pendingSuccessor = new ArrayList<Jsr>();
+
+            for (Jsr jsr : entries.values()) {
+                Set<Jsr> variants = variantIndex.get(jsr.id.jsrNumber); // For tagging umbrella JSRs
+                if (variants == null) {
+                    variants = new HashSet<>();
+                    variantIndex.put(jsr.id.jsrNumber, variants);
                 }
-            }
+                variants.add(jsr);
 
-            Map<JsrId, Jsr> idIndex = new HashMap<>();
-            Map<Integer, Set<Jsr>> numberIndex = new HashMap<>();
-            Set<Jsr> umbrellas = new HashSet<>();
-            Map<JsrId, Lineage> roots = new HashMap<>();
+                JsrMetadata metadata = metadataIndex.get(jsr.id.jsrNumber);
+                jsr.merge(metadata);
 
-            for (Jsr e : entries) {
-                idIndex.put(e.id, e);
-                Set<Jsr> numberEntry = numberIndex.get(e.id.jsrNumber);
-                if (numberEntry == null) {
-                    numberEntry = new TreeSet<>();
-                    numberIndex.put(e.id.jsrNumber, numberEntry);
-                }
-                numberEntry.add(e);
-
-                JsrMetadata metadata = metadataIndex.get(e.id.jsrNumber);
-                if (metadata != null) {
-                    if (e.title == null) e.title = metadata.title;
-                    e.description = metadata.description;
-                    e.status = metadata.status;
-                    e.detailsPage = metadata.detailsPage;
-                }
-
-                if (e.isUmbrella()) {
-                    umbrellas.add(e);
-                    // Note that umbrella JSRs do not specify package names directly.
+                if (jsr.isUmbrella()) {
+                    umbrellas.add(jsr);
+                    // Umbrella JSRs do not specify package names directly.
                     continue;
                 }
 
-                if (roots.containsKey(e.succeeds)) {
-                    Lineage kin = roots.get(e.succeeds);
-                    if (!e.specifiesPackages())
-                        // Inheriting package names from earlier revision.
-                        e.packages = kin.packageNamesFor(e.succeeds);
-                    kin.jsrs.add(e);
-                    roots.remove(e.succeeds);
-                    roots.put(e.id, kin);
+                if (jsr.succeeds != null && !lineages.containsKey(jsr.succeeds)) {
+                    // Handle succeeding JSR before preceding later
+                    pendingSuccessor.add(jsr);
+                    continue;
+                }
+
+                if (jsr.succeeds != null && lineages.containsKey(jsr.succeeds)) {
+                    Lineage kin = lineages.get(jsr.succeeds);
+                    kin.add(jsr);
                 } else {
-                    if (!e.isUmbrella() && !e.specifiesPackages())
-                        throw new IllegalStateException("Missing package names for " + e.id);
-                    Lineage kin = new Lineage();
-                    kin.jsrs.add(e);
-                    roots.put(e.id, kin);
+                    if (!jsr.isUmbrella() && !jsr.specifiesPackages())
+                        throw new IllegalStateException("Missing package names for " + jsr.id);
+                    lineages.put(jsr.id, new Lineage(jsr, lineages));
+                }
+            }
+
+            while (!pendingSuccessor.isEmpty()) {
+                for (Iterator<Jsr> i = pendingSuccessor.iterator(); i.hasNext();) {
+                    Jsr jsr = i.next();
+                    Lineage kin = lineages.get(jsr.succeeds);
+                    if (kin == null)
+                        continue;
+                    kin.add(jsr);
+                    i.remove();
                 }
             }
 
             // Tag inheritance from umbrella JSRs
             for (Jsr umbrella : umbrellas) {
                 for (JsrId jsrId : umbrella.umbrella) {
-                    Jsr target = idIndex.get(jsrId);
-                    Set<Jsr> targets;
-                    if (target != null)
-                        targets = Collections.singleton(target);
-                    else
-                        targets = numberIndex.get(jsrId.jsrNumber); // umbrells all variants of a JSR number
-                    if (targets.isEmpty())
+                    Set<Jsr> targets = variantIndex.get(jsrId.jsrNumber); // umbrells all variants of a JSR number
+                    if (targets == null || targets.isEmpty())
                         throw new IllegalStateException(umbrella + " is umbrella for missing JSR " + jsrId);
                     for (Jsr jsr : targets)
                         jsr.tag(umbrella.tags);
                 }
             }
 
-            for (Lineage kin : roots.values()) {
+            for (Lineage kin : lineages.values()) {
                 for (String packageName : kin.allPackageNames()) {
                     IndexEntry indexEntry = kin.filterByPackage(packageName);
                     Collection<IndexEntry> existing = index.get(packageName);
                     if (existing != null)
                         existing.add(indexEntry);
                     else
-                        index.put(packageName, new ArrayList<>(Collections.singleton(indexEntry)));
+                        index.put(packageName, new ArrayList<>(List.of(indexEntry)));
                 }
             }
 
-            return new JsrIndex(entries, index);
+            return new JsrIndex(entries.values(), index);
         }
     }
 }

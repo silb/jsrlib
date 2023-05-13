@@ -11,7 +11,6 @@ import java.io.Writer;
 import java.net.URI;
 import java.util.Arrays;
 import java.util.Collection;
-import java.util.Collections;
 import java.util.EnumSet;
 import java.util.Objects;
 import java.util.Set;
@@ -214,7 +213,7 @@ public class Tool {
 
     private static void print(JsrId jsrId) throws IOException {
         Collection<Jsr> jsrs = jsrId.hasVariant()
-                             ? Collections.singleton(index.queryById(jsrId))
+                             ? Set.of(index.queryById(jsrId))
                              : index.queryAllByIdOrNumber(jsrId);
         print(jsrs);
     }

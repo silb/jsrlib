@@ -56,6 +56,10 @@ public class JsrId implements Comparable<JsrId> {
         return sb.toString();
     }
 
+    /**
+     * @deprecated use {@link #toString} instead
+     */
+    @Deprecated
     public String displayName() {
         StringBuilder sb = new StringBuilder("JSR ");
         sb.append(jsrNumber);

@@ -201,39 +201,5 @@
 {
   "id" : 343,
   "succeeds" : 914
-},
-{
-  "id" : 223,
-  "packages" : ["javax.script"]
-},
-{
-  "id" : 270,
-  "umbrella" : [181, 221, 222, 223, 224, 250],
-  "tags" : ["JavaSE6"]
-},
-{
-  "id" : 337,
-  "umbrella" : [206],
-  "tags" : ["JavaSE8"]
-},
-{
-  "id" : 206,
-  "packages" : ["javax.xml.parsers", "javax.xml.transform", "javax.xml.stream"]
-},
-{
-  "id" : 346,
-  "packages" : ["javax.enterprise.inject"]
-},
-{
-  "id" : 365,
-  "packages" : ["javax.enterprise.context"]
-},
-{
-  "id" : 375,
-  "packages" : ["javax.security.enterprise"]
-},
-{
-  "id" : 322,
-  "packages" : ["javax.resource"]
 }
 ]

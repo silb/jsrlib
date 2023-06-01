@@ -11,9 +11,7 @@ import java.io.Writer;
 import java.net.URI;
 import java.util.Arrays;
 import java.util.Collection;
-import java.util.Collections;
 import java.util.EnumSet;
-import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
 import java.util.TreeSet;
@@ -195,7 +193,7 @@ public class Tool {
             pw.printf("  Succeeds: JSR %s %s%n", predecessor.id, predecessor.title);
         }
         if (jsr.isUmbrella()) {
-            pw.printf("  Components:%n");
+            pw.printf("  Umbrella:%n");
             for (JsrId id : jsr.umbrella) {
                 for (Jsr u : index.queryAllByIdOrNumber(id))
                     pw.printf("    JSR %s %s%n", u.id, u.title);
@@ -220,36 +218,15 @@ public class Tool {
         print(jsrs);
     }
 
-    // no PDF, no Java packages or not applicable for this tool
-    private static final Set<Integer> ignoredJsrs;
-    static {
-        int[] ids = {
-                105,
-                171,
-                173,
-                355,
-                364,
-                387,
-                902,
-                913
-        };
-        var tmp = new HashSet<Integer>();
-        for (int id : ids)
-            tmp.add(id);
-        ignoredJsrs = Collections.unmodifiableSet(tmp);
-    }
-
     private static void printDataMissing() throws IOException {
         Collection<JsrMetadata> meta = JsrMetadataStore.loadJson();
         Collection<Jsr> jsrs = JsrDataStore.loadJson();
         Set<Integer> jsrNumbers = new TreeSet<>();
         for (Jsr jsr : jsrs)
             jsrNumbers.add(jsr.getJsrNumber());
-        var skipStatus = EnumSet.of(JsrStatus.WITHDRAWN, JsrStatus.REJECTED);
+
         try (PrintWriter pw = new PrintWriter(System.out)) {
             for (JsrMetadata m : meta) {
-                if (skipStatus.contains(m.status) || ignoredJsrs.contains(m.id))
-                    continue;
                 if (!jsrNumbers.contains(m.id)) {
                     pw.printf("JSR %s: %s%n", m.id, m.title);
                     pw.printf("  %s%n", m.description);

@@ -193,7 +193,7 @@ public class Tool {
             pw.printf("  Succeeds: JSR %s %s%n", predecessor.id, predecessor.title);
         }
         if (jsr.isUmbrella()) {
-            pw.printf("  Umbrella:%n");
+            pw.printf("  Components:%n");
             for (JsrId id : jsr.umbrella) {
                 for (Jsr u : index.queryAllByIdOrNumber(id))
                     pw.printf("    JSR %s %s%n", u.id, u.title);

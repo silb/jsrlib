@@ -11,7 +11,9 @@ import java.io.Writer;
 import java.net.URI;
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.Collections;
 import java.util.EnumSet;
+import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
 import java.util.TreeSet;
@@ -218,15 +220,36 @@ public class Tool {
         print(jsrs);
     }
 
+    // No PDF, no Java packages or not applicable for this tool
+    private static final Set<Integer> notMissing;
+    static {
+        int[] ids = {
+                105,
+                171,
+                173,
+                355,
+                364,
+                387,
+                902,
+                913,
+        };
+        var tmp = new HashSet<Integer>(ids.length);
+        for (int id : ids)
+            tmp.add(id);
+        notMissing = Collections.unmodifiableSet(tmp);
+    }
+
     private static void printDataMissing() throws IOException {
         Collection<JsrMetadata> meta = JsrMetadataStore.loadJson();
         Collection<Jsr> jsrs = JsrDataStore.loadJson();
         Set<Integer> jsrNumbers = new TreeSet<>();
         for (Jsr jsr : jsrs)
             jsrNumbers.add(jsr.getJsrNumber());
-
+        var skipStatus = EnumSet.of(JsrStatus.WITHDRAWN, JsrStatus.REJECTED);
         try (PrintWriter pw = new PrintWriter(System.out)) {
             for (JsrMetadata m : meta) {
+                if (skipStatus.contains(m.status) || notMissing.contains(m.id))
+                    continue;
                 if (!jsrNumbers.contains(m.id)) {
                     pw.printf("JSR %s: %s%n", m.id, m.title);
                     pw.printf("  %s%n", m.description);

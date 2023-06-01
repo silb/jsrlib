@@ -7,6 +7,20 @@
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d1"
   },
   {
+    "id": 2,
+    "title": "Boundary-Scan API",
+    "description": "This API targeted the JavaCardTM platform so as to allow it to be usable on all available JavaTM virtual machines from the very smallest to the most sophisticated.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d2"
+  },
+  {
+    "id": 3,
+    "title": "JavaTM Management Extensions (JMXTM) Specification",
+    "description": "The JMXTM specification will provide a management architecture, APIs and services for building Web-based, distributed, dynamic and modular solutions to manage Java enabled resources.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d3"
+  },
+  {
     "id": 4,
     "title": "ECperf Benchmark Specification",
     "description": "ECperf is an EJBTM performance workload that is real-world, scalable and captures the essence of why component models exist.",
@@ -26,6 +40,20 @@
     "description": "This unified Java Print API will be based on a print model that meets the requirements of the current Java 2 Print API and JiniTM Printing.",
     "status": "Final",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d6"
+  },
+  {
+    "id": 7,
+    "title": "Industrial Automation Extension",
+    "description": "The Industrial Automation specification will result in an industry standard for industrial automation that is based on the JavaTM and JiniTM technologies.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d7"
+  },
+  {
+    "id": 8,
+    "title": "Open Services Gateway Specification",
+    "description": "This JSR was going to develop the Open Services Gateway (OSG) Specification and describe an extensible Service Gateway.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d8"
   },
   {
     "id": 9,
@@ -84,6 +112,13 @@
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d16"
   },
   {
+    "id": 17,
+    "title": "JAINTM ISUP Specification",
+    "description": "Requirements for a Standard Java API for ISDN User Part (ISUP), an SS7 protocol.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d17"
+  },
+  {
     "id": 18,
     "title": "JAINTM OAM API Specification",
     "description": "JAINTM Operations, Administration, and Maintenance (OAM) defines a standard API for provisioning and managing protocol interfaces in the Telecommunications and Internet Industry.",
@@ -126,11 +161,39 @@
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d24"
   },
   {
+    "id": 25,
+    "title": "JAINTM Connectivity Management Specification",
+    "description": "The JSR is to define the Java APIs for a Connectivity Management API specification.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d25"
+  },
+  {
+    "id": 26,
+    "title": "UML/EJB Mapping Specification",
+    "description": "This document describes a standard mapping between the Enterprise JavaBeansTM architecture and the Unified Modeling Language.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d26"
+  },
+  {
+    "id": 27,
+    "title": "JavaTM Cryptography Extension 1.3",
+    "description": "This Specification would have enhanced the JavaTM Cryptography Extension 1.2 and made it exportable.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d27"
+  },
+  {
     "id": 28,
     "title": "Java SASL Specification",
     "description": "This specification defines a SASL client and server API in the JavaTM programming language.",
     "status": "Final",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d28"
+  },
+  {
+    "id": 29,
+    "title": "JAINTM MAP Specification",
+    "description": "The JAINTM MAP API Specification includes functionality for messaging and location service. The API may be implemented on different protocols, e.g. ETSI MAP and ANSI 41.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d29"
   },
   {
     "id": 30,
@@ -152,6 +215,13 @@
     "description": "The JAINTM SIP API specification provides a standard portable interface to share information between SIP Clients and SIP Servers, providing call control elements enabling converged-network applications.",
     "status": "Maintenance",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d32"
+  },
+  {
+    "id": 33,
+    "title": "InfoBus 2.0 Specification",
+    "description": "The InfoBus 2.0 Specification and release would have added features to the existing InfoBus 1.2 Specification that capitalize on new features found in the J2SETM Platform.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d33"
   },
   {
     "id": 34,
@@ -189,6 +259,13 @@
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d38"
   },
   {
+    "id": 39,
+    "title": "JavaTM Servlet and JSP Performance Benchmark",
+    "description": "The specification will provide a comprehensive benchmark suite for JavaTM Servlets and JSPTM pages that exercises the key areas that impact performance of these in real life applications.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d39"
+  },
+  {
     "id": 40,
     "title": "The JavaTM Metadata Interface (JMI) Specification",
     "description": "The Java Metadata Interface specification will address the need for a pure Java metadata framework API that supports the creation, storage, retrieval, and interchange of metadata.",
@@ -203,11 +280,25 @@
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d41"
   },
   {
+    "id": 42,
+    "title": "Travel Industry Reservation Booking Foundation API Specification",
+    "description": "This intended to ease the building of applications for reservation booking in the travel industry that would cross all aspects of travel (air, car, hotel, cruise, and other travel activities).",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d42"
+  },
+  {
     "id": 43,
     "title": "JTAPI 1.4 Specification",
     "description": "JTAPI 1.4 extends and enhances the current Java Telephony specification.",
     "status": "Final",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d43"
+  },
+  {
+    "id": 44,
+    "title": "Braille API Specification",
+    "description": "This API for Braille lines would have eased use of these devices and allowed faster introduction of new Braille lines in the JavaTM market by writing a driver for Braille.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d44"
   },
   {
     "id": 45,
@@ -236,6 +327,13 @@
     "description": "JavaTM WBEM Services is a set of APIs and reference implementation for WBEM. WBEM is an initiative from the DMTF that unifies systems management and instrumentation.",
     "status": "Final",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d48"
+  },
+  {
+    "id": 49,
+    "title": "Web Based Industrial Monitoring Framework",
+    "description": "This JSR is to develop a web based monitoring and data acquisition framework for a industrial automation application. The APIs provides cross vendor inter-bean communication means.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d49"
   },
   {
     "id": 51,
@@ -301,6 +399,20 @@
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d59"
   },
   {
+    "id": 60,
+    "title": "Building Automation Java API",
+    "description": "The goal is to develop a set of Java APIs for programmable controllers in the building automation industry.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d60"
+  },
+  {
+    "id": 61,
+    "title": "Phonelets API Specification",
+    "description": "Phonelets provide developers with a simple API to package, deploy and run Computer Telephony Integration (CTI) applications in a resource and security controlled environment.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d61"
+  },
+  {
     "id": 62,
     "title": "Personal Profile Specification",
     "description": "The J2METM Personal Profile provides the J2ME environment for those devices with a need for a high degree of Internet connectivity and web fidelity.",
@@ -313,6 +425,20 @@
     "description": "The proposed specification will define a set of implementation independent portable APIs supporting XML Processing.",
     "status": "Final",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d63"
+  },
+  {
+    "id": 64,
+    "title": "Financial Services Party Component",
+    "description": "This JSR is a proposal to define an Enterprise Java BeanTM (EJBTM) component interface for party information as required by the financial services domain.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d64"
+  },
+  {
+    "id": 65,
+    "title": "Concise Object-Array Literals",
+    "description": "A minor extension to the JavaTM programming language that will support a concise notation for automatically-boxing object-array literals.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d65"
   },
   {
     "id": 66,
@@ -329,6 +455,34 @@
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d67"
   },
   {
+    "id": 68,
+    "title": "J2METM Platform Specification",
+    "description": "This specification will define the next major revision of the JavaTM 2 platform, Micro Edition.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d68"
+  },
+  {
+    "id": 69,
+    "title": "Java OLAP Interface (JOLAP)",
+    "description": "JOLAP is a pure Java API for the J2EETM environment that supports the creation and maintenance of OLAP data and metadata, in a vendor-independent manner.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d69"
+  },
+  {
+    "id": 70,
+    "title": "IIOP Protocol Adapter for JMXTM Specification",
+    "description": "This specification will establish an IIOP based adapter for the JMXTM specification to allow CORBA clients access JMX agents.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d70"
+  },
+  {
+    "id": 71,
+    "title": "JMX-TMN Specification",
+    "description": "JMX-TMN Specification is part of the second phase of the JavaTM Management Extensions (JMXTM) umbrella initiative. It specifies the interoperability between the Telecommunication Management Network (TMN) standards and JMX.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d71"
+  },
+  {
     "id": 72,
     "title": "JavaTM GSS API",
     "description": "This defines a Generic Security Services API (GSS-API) in Java, to provide a layer of abstraction over security mechanisms that perform authentication, message integrity protection, and message privacy protection.",
@@ -341,6 +495,13 @@
     "description": "This JSR addresses the need for a data mining API aligned with existing, evolving data mining standards efforts.",
     "status": "Maintenance",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d73"
+  },
+  {
+    "id": 74,
+    "title": "Public Key Cryptography Standards (PKCS) 1.0",
+    "description": "This JSR is to define a standard set of APIs for a subset of the Public Key Cryptography Standards (PKCS#1, #5, #7, #8, #9, #10 and #12).",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d74"
   },
   {
     "id": 75,
@@ -371,6 +532,13 @@
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d80"
   },
   {
+    "id": 81,
+    "title": "JAIN H323",
+    "description": "H.323 defines a system for moving real-time bi-directional multimedia (video, voice, data, fax, etc.) across packet-based networks.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d81"
+  },
+  {
     "id": 82,
     "title": "JavaTM APIs for Bluetooth",
     "description": "Bluetooth is an important emerging standard for wireless integration of small devices. The specification standardizes a set of Java APIs to allow Java-enabled devices to integrate into a Bluetooth environment.",
@@ -378,11 +546,32 @@
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d82"
   },
   {
+    "id": 83,
+    "title": "Multiarray package",
+    "description": "This JSR proposes a package implementing true rectangular multidimensional arrays for the JavaTM platform.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d83"
+  },
+  {
+    "id": 84,
+    "title": "Floating Point Extensions",
+    "description": "This JSR proposes extensions to the JavaTM Programming Language and Java Virtual Machine that support more efficient execution of floating point code.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d84"
+  },
+  {
     "id": 86,
     "title": "Enterprise Media Beans",
     "description": "Enterprise Media Beans provide a framework to integrate rich media data (i.e. audio, video, or image) into applications based on EJBTM Entity Beans within the J2EETM application development model.",
     "status": "Final",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d86"
+  },
+  {
+    "id": 87,
+    "title": "JavaTM Agent Services",
+    "description": "This specification defines a set of objects and service interfaces to support the deployment and operation of autonomous communicative agents.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d87"
   },
   {
     "id": 88,
@@ -413,6 +602,13 @@
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d91"
   },
   {
+    "id": 92,
+    "title": "Localizable Text",
+    "description": "Localizable Text is the infrastructure necessary to translate language-neutral information (in an object) from anywhere in a distributed network.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d92"
+  },
+  {
     "id": 93,
     "title": "JavaTM API for XML Registries 1.0 (JAXR)",
     "description": "JAXR provides an API for a set of distributed Registry Services that enables business-to-business integration between business enterprises, using the protocols being defined by ebXML.org, Oasis, ISO 11179.",
@@ -434,6 +630,13 @@
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d95"
   },
   {
+    "id": 96,
+    "title": "JavaTM Daemons",
+    "description": "The Java Daemon API supplies a small container framework for developing and deploying independently running services in order to fill the gap caused by different handling on existing native platforms.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d96"
+  },
+  {
     "id": 97,
     "title": "JavaHelpTM 2.0 Specification",
     "description": "A major update to the JavaHelp 1.0 Specification, including enhancements to merging, multi-topic printing, improved secondary window and popup usage, JFC ToolTip HelpSet support, HelpSet presentation controls and additional Navigators.",
@@ -448,11 +651,39 @@
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d99"
   },
   {
+    "id": 100,
+    "title": "JAINTM Service Creation Environment",
+    "description": "JAINTM SCE will support and simplify the creation of portable telecommunication services delivered primarily to the JAINTM Service Logic Execution Environment, while not restricted to this class of Execution Environments.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d100"
+  },
+  {
     "id": 101,
     "title": "JavaTM APIs for XML based RPC",
     "description": "Java APIs to support emerging industry XML based RPC standards.",
     "status": "Final",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d101"
+  },
+  {
+    "id": 102,
+    "title": "JDOM 1.0",
+    "description": "JDOM is a way to represent an XML document for easy and efficient reading, manipulation, and writing.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d102"
+  },
+  {
+    "id": 103,
+    "title": "JAINTM User Interaction API",
+    "description": "This was intended to allow software developers to rapidly develop external Service Provider-type applications using abstract primitives that hide the heterogeneity of underlying networks.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d103"
+  },
+  {
+    "id": 104,
+    "title": "XML Trust Service APIs",
+    "description": "This defines a standard set of APIs and a protocol for a \"Trust Service\", minimizing the complexity of applications using XML Signature.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d104"
   },
   {
     "id": 105,
@@ -462,11 +693,25 @@
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d105"
   },
   {
+    "id": 106,
+    "title": "XML Digital Encryption APIs",
+    "description": "This JSR is to define a standard set of APIs for XML digital encryption services. This proposal is to define and incorporate the high level implementation independent Java APIs.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d106"
+  },
+  {
     "id": 107,
     "title": "JCACHE - Java Temporary Caching API",
     "description": "Specifies API and semantics for temporary, in memory caching of Java objects, including object creation, shared access, spooling, invalidation, and consistency across JVM\u0027s.",
     "status": "Maintenance",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d107"
+  },
+  {
+    "id": 108,
+    "title": "Units Specification",
+    "description": "The JavaTM units package supports programatic unit handling via an abstract Unit class, run-time checking and conversion, unit arithmetic, unit parsing and formatting, and a units database.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d108"
   },
   {
     "id": 109,
@@ -481,6 +726,13 @@
     "description": "JWSDL provides a standard set of Java APIs for representing, manipulating, reading and writing WSDL (Web Services Description Language) documents, including an extension mechanism for WSDL extensibility.",
     "status": "Final",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d110"
+  },
+  {
+    "id": 111,
+    "title": "JavaTM Services Framework",
+    "description": "Provide a specification that clearly defines the lifecycle, configuration, and management of software application services. The specification will provide a standard mechanism for assembling service components into Java server applications.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d111"
   },
   {
     "id": 112,
@@ -518,11 +770,25 @@
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d116"
   },
   {
+    "id": 117,
+    "title": "J2EETM APIs for Continuous Availability",
+    "description": "This specification defines the programming model and runtime support for implementing J2EE applications requiring continuous availability.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d117"
+  },
+  {
     "id": 118,
     "title": "Mobile Information Device Profile 2.0",
     "description": "This specification will define a profile that will extend and enhance the \"J2METM Mobile Information Device Profile\" (JSR-000037).",
     "status": "Maintenance",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d118"
+  },
+  {
+    "id": 119,
+    "title": "JAINTM SPA Integrity Management and Event Notification API",
+    "description": "The API was intended to allow software developers to rapidly develop external Service Provider-type applications to maintain service intergrity and receive generic service-related events.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d119"
   },
   {
     "id": 120,
@@ -539,6 +805,20 @@
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d121"
   },
   {
+    "id": 122,
+    "title": "JAINTM JCAT",
+    "description": "This develops the JavaTM Coordination and Transaction (JCAT) specification, which perceives Java Call Control (JCC) as its core package and extends it with concepts to model and control terminal capabilities.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d122"
+  },
+  {
+    "id": 123,
+    "title": "JAINTM Presence and Availability Management (PAM) API",
+    "description": "JAINTM SPA Presence and Availability Management API will provide Java APIs to disseminate and manage presence information securely across heterogeneous networks and applications.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d123"
+  },
+  {
     "id": 124,
     "title": "J2EETM Client Provisioning Specification",
     "description": "This JSR aims to define Java standard which partitions server applications that provision client applications.",
@@ -546,11 +826,32 @@
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d124"
   },
   {
+    "id": 125,
+    "title": "JAINTM SIP Lite",
+    "description": "The JAINTM SIP Lite API defines a high level API to the SIP stack to allow for the rapid development of applications.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d125"
+  },
+  {
+    "id": 126,
+    "title": "Distributed Page Assembly",
+    "description": "This specification defines a standard application model and architecture for distributed page assembly within the J2EE framework.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d126"
+  },
+  {
     "id": 127,
     "title": "JavaServer Faces",
     "description": "This specification defines an architecture and APIs which simplify the creation and maintenance of Java Server application GUIs.",
     "status": "Final",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d127"
+  },
+  {
+    "id": 128,
+    "title": "JESI - JSP Tag Library for Edge Side Includes (ESI)",
+    "description": "The JESI tag library facilitates the use of Edge Side Include (ESI) in-markup language within JSP applications. JESI tags simplify the declaration of cacheable dynamic fragments, content invalidation and personalization.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d128"
   },
   {
     "id": 129,
@@ -574,11 +875,25 @@
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d131"
   },
   {
+    "id": 132,
+    "title": "JAINTM OAM API Specification v2.0",
+    "description": "This would have developed the JAINTM Operations, Administration, and Maintenance API v2.0 Specification, which defines a standard Interface for provisioning and managing various protocol interfaces, switching platforms, and applications servers.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d132"
+  },
+  {
     "id": 133,
     "title": "JavaTM Memory Model and Thread Specification Revision",
     "description": "The proposed specification describes the semantics of threads, locks, volatile variables and data races. This includes what has been referred to as the Java memory model.",
     "status": "Final",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d133"
+  },
+  {
+    "id": 134,
+    "title": "JavaTM Game Profile",
+    "description": "Defines a Java 2 Micro Edition Profile for the purposes of game development targeting high-end consumer game devices and desktops.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d134"
   },
   {
     "id": 135,
@@ -588,11 +903,39 @@
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d135"
   },
   {
+    "id": 136,
+    "title": "JavaTM Technology for Service Providers",
+    "description": "This would have correlated JSRs targeted at next-generation service providers, documented how these JSRs fit together within end-to-end service provider networks, and introduced developers to emerging service provider network-targeted APIs.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d136"
+  },
+  {
+    "id": 137,
+    "title": "JAINTM 3G MAP Specification",
+    "description": "This JSR is to develop the JAINTM 3G MAP APIs which will enable mobile applications in the 3G domain to talk to each other.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d137"
+  },
+  {
+    "id": 138,
+    "title": "Performance Metric Instrumentation",
+    "description": "Specifies standard APIs for performance metric instrumentation of Java programs.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d138"
+  },
+  {
     "id": 139,
     "title": "Connected Limited Device Configuration 1.1",
     "description": "This specification will define a revised version of the J2METM Connected, Limited Device Configuration (CLDC).",
     "status": "Maintenance",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d139"
+  },
+  {
+    "id": 140,
+    "title": "Service Location Protocol (SLP) API for Java",
+    "description": "This JSR is to standardize the Service Location Protocol Application Programmer Interface for Java as described in RFC 2614.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d140"
   },
   {
     "id": 142,
@@ -609,11 +952,46 @@
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d144"
   },
   {
+    "id": 145,
+    "title": "JAINTM SPA Common API",
+    "description": "This JSR will specify the set of APIs common across the JAIN SPA JSRs. This will provide consistency by reducing duplication of common interfaces and classes among these JSRs.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d145"
+  },
+  {
+    "id": 146,
+    "title": "WBEM Services: JMX Provider Protocol Adapter",
+    "description": "JSR-048 defines WBEM support for Java. This specification would have defined how JMX instrumentation mapped to CIM and the definition of a JMX Provider Protocol Adapter for WBEM Services.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d146"
+  },
+  {
     "id": 147,
     "title": "Workspace Versioning and Configuration Management",
     "description": "Workspace Versioning and Configuration Management provides client support for creating and manipulating sets of version-controlled files and web resources.",
     "status": "Final",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d147"
+  },
+  {
+    "id": 148,
+    "title": "3D Media Utilities",
+    "description": "The 3D Media Utilities API specifies classes and interfaces for 3D vector operations and volumetric imaging.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d148"
+  },
+  {
+    "id": 149,
+    "title": "Work Area Service for J2EE",
+    "description": "The Work Area Service allows J2EE developers to set properties as application context that is implicitly attached to and made available anywhere during the processing of remote requests.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d149"
+  },
+  {
+    "id": 150,
+    "title": "Internationalization Service for J2EE",
+    "description": "The Internationalization Service enables distributed localization within Enterprise Java applications by transparently propagating and managing localization information within relevant J2EE application components.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d150"
   },
   {
     "id": 151,
@@ -644,6 +1022,55 @@
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d154"
   },
   {
+    "id": 155,
+    "title": "Web Services Security Assertions",
+    "description": "To provide a set of APIs, exchange patterns \u0026 implementation to securely (integrity and confidentiality) exchange assertions between web services based on OASIS SAML.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d155"
+  },
+  {
+    "id": 156,
+    "title": "Java API for XML Transactions",
+    "description": "JAXTX provides an API for packaging and transporting ACID transactions (as in JTA) and extended transactions (e.g., the BTP from OASIS) using the protocols being defined by OASIS, W3C.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d156"
+  },
+  {
+    "id": 157,
+    "title": "ebXML CPP/A APIs for Java",
+    "description": "This JSR is to provide a standard set of APIs for representing and manipulating Collaboration Profile and Agreement information described by ebXML CPP/A (Collaboration Protocol Profile/Agreement)documents.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d157"
+  },
+  {
+    "id": 158,
+    "title": "JavaTM Stream Assembly",
+    "description": "TheJavaTM Stream Assembly API specifies classes and interfaces for the creation, management, and processing of broadcast and interactive stream multiplexes.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d158"
+  },
+  {
+    "id": 159,
+    "title": "JavaTM Process Component API (JPC)",
+    "description": "JPC would have defined a loosely coupled, event based process component model that would simplify the development of composable, customizable services.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d159"
+  },
+  {
+    "id": 160,
+    "title": "JavaTM Management Extensions (JMX) Remote API",
+    "description": "This API extends the JMX 1.2 API to provide remote access to JMX MBean servers.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d160"
+  },
+  {
+    "id": 162,
+    "title": "Portlet API",
+    "description": "The Portlet API specification defines an API for components being aggregated in web applications like portals. It includes portlets, portlet container behavior, portlet windows, events, persistent storage and portlet services.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d162"
+  },
+  {
     "id": 163,
     "title": "JavaTM Platform Profiling Architecture",
     "description": "A mechanism and APIs for extracting time and space profiling information from a running JavaTM virtual machine.",
@@ -670,6 +1097,13 @@
     "description": "The JSR proposes a set of medium-level utilities that provide functionality commonly needed in concurrent programs.",
     "status": "Final",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d166"
+  },
+  {
+    "id": 167,
+    "title": "JavaTM Portlet Specification",
+    "description": "This specification would have defined a set of APIs for Portal computing addressing the areas of aggregation, personalization, presentation and security.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d167"
   },
   {
     "id": 168,
@@ -705,6 +1139,13 @@
     "description": "The purpose of this specification is to define an optional package that provides standard access from J2ME to web services.",
     "status": "Maintenance",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d172"
+  },
+  {
+    "id": 173,
+    "title": "Streaming API for XML",
+    "description": "The Streaming API for XML (StAX) is a Java based API for pull-parsing XML.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d173"
   },
   {
     "id": 174,
@@ -756,6 +1197,13 @@
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d181"
   },
   {
+    "id": 183,
+    "title": "Web Services Message Security APIs",
+    "description": "This JSR is to define a standard set of APIs for Web services message security. The goal of this JSR is to enable applications to construct secure SOAP message exchanges.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d183"
+  },
+  {
     "id": 184,
     "title": "Mobile 3D Graphics API for J2METM",
     "description": "This proposed JSR will provide a scalable, small-footprint, interactive 3D API for use on mobile devices.",
@@ -791,11 +1239,39 @@
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d188"
   },
   {
+    "id": 189,
+    "title": "JavaTM 3D API 1.4",
+    "description": "This JSR will add new large scale funtionality to Java 3D. Possible technologies for inclusion include programmable shading and advanced rendering techniques.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d189"
+  },
+  {
     "id": 190,
     "title": "Event Tracking API for J2ME",
     "description": "This defines an optional code package that standardizes application event tracking on a mobile device and the submission of these event records to an event-tracking server via a standard protocol.",
     "status": "Final",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d190"
+  },
+  {
+    "id": 191,
+    "title": "JAINTM GCCS API",
+    "description": "The API was intended to allow software developers to rapidly develop external Service Provider type applications to interact with the GCCS Service.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d191"
+  },
+  {
+    "id": 192,
+    "title": "JAINTM Service Creation Environment - JavaTM PART",
+    "description": "This is the specification for the JavaTM API to support and simplify the creation of portable telecommunication services delivered primarily to the JAINTM Service Logic Execution Environment (JAINTM SLEE).",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d192"
+  },
+  {
+    "id": 193,
+    "title": "Client Side Container (CSC)",
+    "description": "This would have described a client-side container architecture, providing common client infrastructure, for developing API-neutral clients (Swing, AWT, Command Line). The access to J2EE-components would be fully abstracted and encapsulated.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d193"
   },
   {
     "id": 195,
@@ -875,6 +1351,20 @@
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d205"
   },
   {
+    "id": 206,
+    "title": "JavaTM API for XML Processing (JAXP) 1.3",
+    "description": "JAXP 1.3 is the next version of JAXP, an implementation independent portable API for processing XML with JavaTM.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d206"
+  },
+  {
+    "id": 207,
+    "title": "Process Definition for JavaTM",
+    "description": "Definition of an annotated Java syntax and APIs for programming business processes in Java.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d207"
+  },
+  {
     "id": 208,
     "title": "JavaTM Business Integration (JBI)",
     "description": "This JSR extends J2EETM and J2SETM with business integration SPIs.",
@@ -887,6 +1377,13 @@
     "description": "The Advanced Graphics and User Interface (AGUI) Optional Package will migrate the core APIs for advanced graphics and user interface facilities from the J2SE platform to the J2ME platform.",
     "status": "Final",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d209"
+  },
+  {
+    "id": 210,
+    "title": "OSS Service Quality Management API",
+    "description": "Provide an API via the OSS through Java initiative that allows telecom management applications to be developed and integrated with Java-enabled Service Quality Management Systems.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d210"
   },
   {
     "id": 211,
@@ -959,6 +1456,13 @@
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d222"
   },
   {
+    "id": 223,
+    "title": "Scripting for the JavaTM Platform",
+    "description": "The specification will describe mechanisms allowing scripting language programs to access information developed in the Java Platform and allowing scripting language pages to be used in Java Server-side Applications.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d223"
+  },
+  {
     "id": 224,
     "title": "JavaTM API for XML-Based Web Services (JAX-WS) 2.0",
     "description": "The JAX-WS 2.0 specification is the next generation web services API replacing JAX-RPC 1.0.",
@@ -978,6 +1482,13 @@
     "description": "This specification will define an optional package API for rendering scalable 2D vector graphics, including image files in W3C Scalable Vector Graphics (SVG) format.",
     "status": "Maintenance",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d226"
+  },
+  {
+    "id": 227,
+    "title": "A Standard Data Binding \u0026 Data Access Facility for J2EETM",
+    "description": "An API and associated metadata format for declaratively binding and accessing data in J2EETM applications.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d227"
   },
   {
     "id": 228,
@@ -1008,6 +1519,13 @@
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d232"
   },
   {
+    "id": 233,
+    "title": "J2EE Mobile Device Management and Monitoring Specification",
+    "description": "This JSR defines an extension of the J2EE platform for the purposes of remotely monitoring and managing the software on mobile devices.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d233"
+  },
+  {
     "id": 234,
     "title": "Advanced Multimedia Supplements",
     "description": "This specification will define an optional package for advanced multimedia functionality which is targeted to run as an supplement in connection with MMAPI (JSR-135) in J2ME/CLDC environment.",
@@ -1027,6 +1545,13 @@
     "description": "Concurrency Utilities for Java EE provides a simple, standardized API for using concurrency from application components without compromising container integrity while still preserving the Java EE platform\u0027s fundamental benefits.",
     "status": "Final",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d236"
+  },
+  {
+    "id": 237,
+    "title": "Work Manager for Application Servers",
+    "description": "A work manager API providing for execution of concurrent work items within managed environments.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d237"
   },
   {
     "id": 238,
@@ -1078,6 +1603,13 @@
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d245"
   },
   {
+    "id": 247,
+    "title": "Data Mining 2.0",
+    "description": "JDM 2.0 will address requested features deferred from JDM 1.0, which focused on the data mining framework and a select number of mining functions and algorithms.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d247"
+  },
+  {
     "id": 248,
     "title": "Mobile Service Architecture",
     "description": "This JSR creates a mobile service architecture and platform definition for the high volume wireless handsets continuing the work started in JSR-185 and enhancing the definition with new technologies.",
@@ -1113,6 +1645,13 @@
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d254"
   },
   {
+    "id": 255,
+    "title": "JavaTM Management Extensions (JMXTM) Specification, version 2.0",
+    "description": "This JSR updates the JMX and JMX Remote APIs for version 6.0 of the Java(TM) Platform, Standard Edition. It will improve usability of existing features and add new functionality.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d255"
+  },
+  {
     "id": 256,
     "title": "Mobile Sensor API",
     "description": "The API provides general Sensor API that extends the usability and choice of sensors for J2ME applications. It defines generic sensor functionality optimized for the resource-constrained devices like mobile devices.",
@@ -1134,6 +1673,27 @@
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d258"
   },
   {
+    "id": 260,
+    "title": "JavadocTM Tag Technology Update",
+    "description": "Defines new tags and generated Javadoc document representation aimed to increase readability, information richness, and make the Javadoc more approachable to developers learning and using the APIs.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d260"
+  },
+  {
+    "id": 261,
+    "title": "JavaTM API for XML Web Services Addressing (JAX-WSA)",
+    "description": "The Java API for XML Web Services Addressing (JAX-WSA) 1.0 specification will define APIs and a framework for supporting transport-neutral addressing of Web services.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d261"
+  },
+  {
+    "id": 262,
+    "title": "Web Services Connector for Java Management Extensions (JMX) Agents",
+    "description": "Defines a connector for the JMX Remote API that uses Web Services to make JMX instrumentation available remotely. Clients do not have to be Java applications, but can be.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d262"
+  },
+  {
     "id": 263,
     "title": "Fault Management API",
     "description": "The Fault Management API provides for the monitoring and management of alarms within an information or a telecommunications network.",
@@ -1146,6 +1706,20 @@
     "description": "This JSR defines an interface to an Order Management component, with specific extensions for activation and work order management use-cases.",
     "status": "Final",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d264"
+  },
+  {
+    "id": 265,
+    "title": "API for Utilizing Web Services Policy",
+    "description": "This specification aims to standardize a basic framework in Java for utilizing the Web services constraints and capabilities.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d265"
+  },
+  {
+    "id": 267,
+    "title": "JSP Tag Library for Web Services",
+    "description": "JSPTM Tag Library for accessing Web Services",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d267"
   },
   {
     "id": 268,
@@ -1181,6 +1755,20 @@
     "description": "This specification will define an optional package in J2ME/MIDP/CLDC environment to provide functionality to handle broadcast content, e.g. to view digital television and to utilize its rich features and services.",
     "status": "Final",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d272"
+  },
+  {
+    "id": 273,
+    "title": "Design-Time API for JavaBeansTM JBDT",
+    "description": "This JSR extends the JavaBeans specification and APIs to improve design-time functionality for component authors to leverage within the visual design environments in IDEs.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d273"
+  },
+  {
+    "id": 277,
+    "title": "JavaTM Module System",
+    "description": "The specification defines a distribution format and a repository for collections of Java code and related resources. It also defines the discovery, loading, and integrity mechanisms at runtime.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d277"
   },
   {
     "id": 279,
@@ -1260,6 +1848,27 @@
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d293"
   },
   {
+    "id": 294,
+    "title": "Improved Modularity Support in the JavaTM Programming Language",
+    "description": "Language extensions in support of information hiding and separate compilation.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d294"
+  },
+  {
+    "id": 295,
+    "title": "Beans Binding",
+    "description": "Provide an API that allows two properties of two beans to stay in sync.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d295"
+  },
+  {
+    "id": 296,
+    "title": "Swing Application Framework",
+    "description": "This JSR will provide a simple application framework for Swing applications. It will define infrastructure common to most desktop applications. In so doing, Swing applications will be easier to create.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d296"
+  },
+  {
     "id": 298,
     "title": "Telematics API for JavaTM ME",
     "description": "This JSR defines the API set for Telematics Service on mobile devices.",
@@ -1302,6 +1911,13 @@
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d303"
   },
   {
+    "id": 306,
+    "title": "Towards a new version of the JCP",
+    "description": "This JSR proposes a variety of changes and adjustments to the JCP.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d306"
+  },
+  {
     "id": 308,
     "title": "Annotations on Java Types",
     "description": "This JSR extends the Java annotation syntax to permit annotations on any occurrence of a type. Previously, annotations could not be placed on generic type arguments, type casts, etc.",
@@ -1328,6 +1944,20 @@
     "description": "This JSR will develop an API for providing support for RESTful(Representational State Transfer) Web Services in the Java Platform.",
     "status": "Maintenance",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d311"
+  },
+  {
+    "id": 312,
+    "title": "JavaTM Business Integration 2.0 (JBI 2.0)",
+    "description": "JBI enables the creation of a Java business integration environment for the creation of Composite Applications. The JBI 2.0 JSR will augment it to address new requirements.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d312"
+  },
+  {
+    "id": 313,
+    "title": "JavaTM Platform, Enterprise Edition 6 (Java EE 6) Specification",
+    "description": "This JSR is to develop Java EE 6, a release of the Java Platform, Enterprise Edition targeted to ship in 2008.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d313"
   },
   {
     "id": 314,
@@ -1365,11 +1995,39 @@
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d318"
   },
   {
+    "id": 319,
+    "title": "Availability Management for Java",
+    "description": "This JSR will provide an API by which an availability management framework can supervise and control Java runtime units in order to achieve high availability.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d319"
+  },
+  {
+    "id": 321,
+    "title": "Trusted Computing API for JavaTM",
+    "description": "Develop a Trusted Computing API for JavaTM providing selected functionality the TCG Software Stack offers to the C world, while following the conventions of modern Java APIs.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d321"
+  },
+  {
     "id": 322,
     "title": "JavaTM EE Connector Architecture 1.6",
     "description": "The Java EE Connector Architecture 1.5 defines a standard architecture for connecting to Enterprise Information Systems. This JSR will enhance the existing specification with features requested by experts and community.",
     "status": "Maintenance",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d322"
+  },
+  {
+    "id": 325,
+    "title": "IMS Communication Enablers (ICE)",
+    "description": "This specification will define a high level, IMS Communications Enabler framework API that will provide Java ME based devices effortless access to a set of essential IMS Communication Enablers.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d325"
+  },
+  {
+    "id": 328,
+    "title": "Change Management API",
+    "description": "This JSR defines an interface to Change Management Systems handling and approving Requests for Changes.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d328"
   },
   {
     "id": 329,
@@ -1484,6 +2142,13 @@
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d346"
   },
   {
+    "id": 347,
+    "title": "Data Grids for the JavaTM Platform",
+    "description": "This JSR proposes an API for interacting with in-memory and disk-based distributed data grids.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d347"
+  },
+  {
     "id": 348,
     "title": "Towards a new version of the Java Community Process",
     "description": "This JSR proposes a variety of changes and adjustments to the Java Community Process.",
@@ -1496,6 +2161,13 @@
     "description": "Bean Validation standardizes constraint definition, declaration and validation for the Java platform. For more information on Bean Validation and how to participate, check out http://beanvalidation.org.",
     "status": "Final",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d349"
+  },
+  {
+    "id": 351,
+    "title": "JavaTM Identity API",
+    "description": "This JSR will develop the Identity API for the Java Platform.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d351"
   },
   {
     "id": 352,
@@ -1531,6 +2203,13 @@
     "description": "The Java API for WebSocket JSR will define a standard API for creating WebSocket applications.",
     "status": "Maintenance",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d356"
+  },
+  {
+    "id": 358,
+    "title": "A major revision of the Java Community Process",
+    "description": "This JSR will make a variety of changes and adjustments to the Java Community Process, revising the Process Document, the EC Standing Rules, and the JSPA.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d358"
   },
   {
     "id": 359,
@@ -1596,6 +2275,13 @@
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d367"
   },
   {
+    "id": 368,
+    "title": "JavaTM Message Service 2.1",
+    "description": "The JMS API is an API for accessing enterprise messaging systems from Java programs. This JSR is to develop JMS 2.1, the next version of the API.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d368"
+  },
+  {
     "id": 369,
     "title": "JavaTM Servlet 4.0 Specification",
     "description": "This JSR aims to expose the latest advances in HTTP to users of JavaEE as well as providing a vehicle for continual improvement in this foundational Java EE API.",
@@ -1622,6 +2308,13 @@
     "description": "This JSR is to develop JSF 2.3, the next release of Java Server Faces.",
     "status": "Final",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d372"
+  },
+  {
+    "id": 373,
+    "title": "JavaTM EE Management API 2.0",
+    "description": "This JSR is to update JSR 77 with REST interfaces and incorporate deployment as a standard part of the management interface.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d373"
   },
   {
     "id": 374,
@@ -1671,6 +2364,13 @@
     "description": "Java APIs for detecting, recognizing and annotating images with focus on the content of the images, facial detection, facial emotions, image tagging, specifying image classifiers and training the visual data.",
     "status": "Final",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d381"
+  },
+  {
+    "id": 382,
+    "title": "Configuration API 1.0",
+    "description": "Provide applications and microservices means to obtain configuration properties through several environment-aware sources both internal and external to the application and made available through dependency injection or lookup.",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d382"
   },
   {
     "id": 383,
@@ -1916,6 +2616,13 @@
     "description": "This is a Maintenance Revision of the Implementing Enterprise Web Services 1.1 Specification.",
     "status": "Final",
     "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d921"
+  },
+  {
+    "id": 922,
+    "title": "JavaTM Communication API",
+    "description": "Maintenance version of the Java Communication API specification,version 2.0.3",
+    "status": "Withdrawn",
+    "detailsPage": "https://www.jcp.org/en/jsr/detail?id\u003d922"
   },
   {
     "id": 923,

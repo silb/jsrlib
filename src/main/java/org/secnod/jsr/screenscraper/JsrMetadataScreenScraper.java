@@ -21,7 +21,7 @@ import org.secnod.jsr.JsrStatus;
 
 /**
  * Screen scraper for retrieving metadata for all JSRs.
- * <a href="https://www.jcp.org/en/jsr/all">https://www.jcp.org/en/jsr/all
+ * @see <a href="https://www.jcp.org/en/jsr/all">https://www.jcp.org/en/jsr/all</a>
  */
 public class JsrMetadataScreenScraper {
 

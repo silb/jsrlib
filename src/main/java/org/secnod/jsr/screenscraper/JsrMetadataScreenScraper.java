@@ -25,7 +25,7 @@ import org.secnod.jsr.JsrStatus;
  */
 public class JsrMetadataScreenScraper {
 
-    public static URI defaultAllJsrsPage;
+    public static final URI defaultAllJsrsPage;
     public final URI allJsrsPage;
 
     static {

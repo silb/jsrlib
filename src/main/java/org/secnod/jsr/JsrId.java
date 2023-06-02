@@ -41,11 +41,10 @@ public class JsrId implements Comparable<JsrId> {
             return jsrComp;
         else if (variant == null)
             return -1;
-        else if (variant != null && o.variant == null)
+        else if (o.variant == null)
             return 1;
-        else if (variant != null && o.variant != null)
+        else
             return variant.compareTo(o.variant);
-        return 0;
     }
 
     @Override

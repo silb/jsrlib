@@ -315,6 +315,8 @@ public class Tool {
         if (download.file.getName().endsWith(".zip")) {
             JsrZipFileInspector i = new JsrZipFileInspector(download.file);
             specFile = i.copySpec();
+            if (specFile == null)
+                throw new IOException("No PDF specification file found in " + download.file);
             if (verbose()) System.out.printf("Downloaded %s and extracted %s%n", download.file, specFile);
         } else {
             specFile = download.file;

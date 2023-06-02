@@ -22,7 +22,6 @@ public class JsrZipFileInspector {
     private final File zipFile;
 
     public JsrZipFileInspector(File zipFile) {
-        super();
         this.zipFile = zipFile;
     }
 
@@ -32,17 +31,17 @@ public class JsrZipFileInspector {
 
     public File copySpec(File target) throws IOException {
         try (ZipFile zip = new ZipFile(zipFile)) {
-            List<ZipEntry> pdfDocs = new ArrayList<ZipEntry>();
-            ZipEntry entry = null;
+            List<ZipEntry> pdfDocs = new ArrayList<>();
             Enumeration<? extends ZipEntry> e = zip.entries();
-            while(e.hasMoreElements()) {
-                entry = e.nextElement();
+            while (e.hasMoreElements()) {
+                ZipEntry entry = e.nextElement();
                 if (!entry.isDirectory() && entry.getName().toLowerCase().endsWith(".pdf")) {
                     pdfDocs.add(entry);
                 }
             }
 
-            if (pdfDocs.isEmpty()) return null;
+            if (pdfDocs.isEmpty())
+                return null;
 
             ZipEntry spec = Collections.max(pdfDocs, new Comparator<ZipEntry>() {
                 @Override

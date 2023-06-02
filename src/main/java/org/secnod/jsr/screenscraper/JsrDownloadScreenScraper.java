@@ -36,7 +36,6 @@ public class JsrDownloadScreenScraper {
     private Queue<String> releases = new LinkedList<>();
 
     public JsrDownloadScreenScraper(JsrId jsrId) {
-        super();
         this.jsrId = jsrId;
         detailsPageUrl = "http://www.jcp.org/en/jsr/detail?id=" + jsrId.jsrNumber;
     }
@@ -67,16 +66,19 @@ public class JsrDownloadScreenScraper {
             }
         }
 
-        if (revisionTable == null) throw new ScreenScrapeException(this);
+        if (revisionTable == null)
+            throw new ScreenScrapeException(this);
 
         Elements rows = revisionTable.select("tr");
 
         for (Element row : rows) {
             Elements columns = row.select("td");
             Element releaseStatusCell = columns.select("td:matches((Active|Final|Maintenance)\\s+Release)").first();
-            if (releaseStatusCell == null) continue;
+            if (releaseStatusCell == null)
+                continue;
             String releaseName = releaseStatusCell.text();
-            if (releases.contains(releaseName)) continue;
+            if (releases.contains(releaseName))
+                continue;
             releases.add(releaseName);
         }
 
@@ -86,7 +88,8 @@ public class JsrDownloadScreenScraper {
     }
 
     public void openReleasePage() throws IOException {
-        if (releases.isEmpty()) throw new ScreenScrapeException(this);
+        if (releases.isEmpty())
+            throw new ScreenScrapeException(this);
         log.debug("{} trying release {}", jsrId, releaseName());
 
         // Locating a cell in the table of revisions.
@@ -101,26 +104,31 @@ public class JsrDownloadScreenScraper {
             }
         }
 
-        if (revisionTable == null) throw new ScreenScrapeException(this);
+        if (revisionTable == null)
+            throw new ScreenScrapeException(this);
 
         Elements rows = revisionTable.select("tr");
 
         for (Element row : rows) {
             Elements columns = row.select("td");
             Element releaseStatusCell = columns.select("td:containsOwn(" + releaseName() + ")").first(); // FIXME Does not match!
-            if (releaseStatusCell == null) continue;
+            if (releaseStatusCell == null)
+                continue;
             Element releaseDownloadLink = columns.select("a:containsOwn(download)").first();
-            if (releaseDownloadLink == null) continue;
+            if (releaseDownloadLink == null)
+                continue;
             releasePageUrl = releaseDownloadLink.attr("href");
             log.debug("{} {} page {}", jsrId, releaseName(), releasePageUrl);
             releasePage = Jsoup.connect(releasePageUrl).get();
-            if (releasePage != null) break;
+            if (releasePage != null)
+                break;
         }
         //throw new ScreenScrapeException(this);
     }
 
     public JsrDownloadScreenScraper openDownloadPage() throws IOException {
-        if (releasePage == null) throw new ScreenScrapeException(this);
+        if (releasePage == null)
+            throw new ScreenScrapeException(this);
 
         Element downloadPageLink = releasePage.select("a[href~=.*download.*eval.*]").first();
         if (downloadPageLink == null) {
@@ -171,7 +179,8 @@ public class JsrDownloadScreenScraper {
     }
 
     public URI findReleaseDownload() throws IOException, ScreenScrapeException {
-        if (downloadPageUrl == null) return null;
+        if (downloadPageUrl == null)
+            return null;
 
         Document downloadPage = Jsoup.connect(downloadPageUrl).get();
 
@@ -189,7 +198,8 @@ public class JsrDownloadScreenScraper {
                 }
             }
 
-            if (downloadUrl == null) continue;
+            if (downloadUrl == null)
+                continue;
             //if (jsrId.variant != null && !downloadUrl.contains("-" + jsrId.variant)) continue;
 
             log.trace("{} {} found a complete download URL in a script", jsrId, releaseName());
@@ -208,10 +218,12 @@ public class JsrDownloadScreenScraper {
             Pattern uuidPattern = Pattern.compile("var\\s+" + uuid + "\\s+=\\s+'((https?:/)?/.*\\.(pdf|zip))'", Pattern.CASE_INSENSITIVE);
             for (Element script : scripts) {
                 Matcher m = uuidPattern.matcher(script.data());
-                if (!m.find()) continue;
+                if (!m.find())
+                    continue;
                 String urlPath = m.group(1);
                 if (jsrId.variant != null
-                        && !(urlPath.contains("-" + jsrId.variant) || urlPath.contains(jsrId.variant + "-"))) continue;
+                        && !(urlPath.contains("-" + jsrId.variant) || urlPath.contains(jsrId.variant + "-")))
+                    continue;
                 log.trace("{} {} found absolute or relative URL {} in script variable {} at {}",
                         jsrId, releaseName(), urlPath, uuid, downloadPageUrl);
                 URI baseURI = newUri(downloadLink.baseUri());
@@ -245,7 +257,8 @@ public class JsrDownloadScreenScraper {
             openReleasePage();
             openDownloadPage();
             URI download = findReleaseDownload();
-            if (download != null) return download;
+            if (download != null)
+                return download;
         } while (nextRelease());
         return null;
     }
@@ -255,4 +268,3 @@ public class JsrDownloadScreenScraper {
         return !releases.isEmpty();
     }
 }
-

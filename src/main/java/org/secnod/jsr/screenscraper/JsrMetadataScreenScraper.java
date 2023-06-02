@@ -62,7 +62,8 @@ public class JsrMetadataScreenScraper {
 
             Pattern p = Pattern.compile("^.*detail.*[\\?&]id=(\\d+).*$");
             Matcher m = p.matcher(detailsPageLink.attr("href"));
-            if (!m.matches()) continue;
+            if (!m.matches())
+                continue;
 
             jsr.id = Integer.parseInt(m.group(1));
             jsr.title = detailsPageLink.text();
@@ -73,7 +74,8 @@ public class JsrMetadataScreenScraper {
             Element descriptionHeaderColumn = jsrTable.select("tr td:contains(Description)").first();
             if (descriptionHeaderColumn != null) {
                 Element descriptionColumn = descriptionHeaderColumn.siblingElements().select(":matches(.*\\w+.*)").first();
-                if (descriptionColumn != null) jsr.description = descriptionColumn.text();
+                if (descriptionColumn != null)
+                    jsr.description = descriptionColumn.text();
             }
 
             Element statusHeaderCell = jsrTable.select("tr td:contains(Status)").first();
@@ -84,7 +86,8 @@ public class JsrMetadataScreenScraper {
                 }
             }
 
-            if (!statusFilter.contains(jsr.status)) continue;
+            if (!statusFilter.contains(jsr.status))
+                continue;
 
             jsrs.add(jsr);
         }

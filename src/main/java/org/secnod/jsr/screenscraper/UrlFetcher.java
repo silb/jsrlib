@@ -29,13 +29,15 @@ public class UrlFetcher {
     private String filename;
     private int redirectLimit = 10;
     private int redirectNo = 1;
-    private List<HttpURLConnection> connections = new ArrayList<HttpURLConnection>();
+    private List<HttpURLConnection> connections = new ArrayList<>();
 
     public UrlFetcher(URI url, File target) {
         this.url = url;
-        if (target == null) throw new IllegalArgumentException("Argument target is null");
+        if (target == null)
+            throw new IllegalArgumentException("Argument target is null");
 
-        if (target.isDirectory()) directory = target;
+        if (target.isDirectory())
+            directory = target;
 
         if (target.isFile()) {
             file = target;
@@ -50,7 +52,8 @@ public class UrlFetcher {
     private void determineTargetFile(String filename1, String filename2) throws IOException {
         String filename = filename1 != null ? filename1 : filename2;
         this.filename = filename;
-        if (file != null) return;
+        if (file != null)
+            return;
         if (filename == null || filename.isEmpty()) {
             file = File.createTempFile("download", "", directory);
         } else {
@@ -78,7 +81,8 @@ public class UrlFetcher {
 
     private void closeUrlConnections() {
         for (HttpURLConnection con : connections) {
-            if (con != null) con.disconnect();
+            if (con != null)
+                con.disconnect();
         }
     }
 
@@ -89,12 +93,14 @@ public class UrlFetcher {
         int status = con.getResponseCode();
         if (status == 301 || status == 302) {
             // HttpURLConnection doesn't follow redirects from http to https automatically.
-            if (redirectNo > redirectLimit) throw new IOException("Redirect limit " + redirectLimit + " exceeded.");
+            if (redirectNo > redirectLimit)
+                throw new IOException("Redirect limit " + redirectLimit + " exceeded.");
             redirectNo++;
             String location = con.getHeaderField("Location");
             return new URI(location);
         }
-        if (status != 200) throw new IOException("HTTP status " + status + " for URL " + url);
+        if (status != 200)
+            throw new IOException("HTTP status " + status + " for URL " + url);
         determineTargetFile(filenameFromContentDisposition(con.getHeaderField("Content-Disposition")), filenameFromUrl(url));
         try (InputStream is = new BufferedInputStream(con.getInputStream())) {
             streamToFile(is);
@@ -108,8 +114,10 @@ public class UrlFetcher {
 
         StringBuilder sb = new StringBuilder();
 
-        if (basename != null) sb.append(basename.replaceAll("[^\\w]+", ""));
-        if (extension != null) sb.append('.').append(extension.replaceAll("[^\\w]+", ""));
+        if (basename != null)
+            sb.append(basename.replaceAll("[^\\w]+", ""));
+        if (extension != null)
+            sb.append('.').append(extension.replaceAll("[^\\w]+", ""));
 
         String trimmed = sb.toString().trim();
         return trimmed.isEmpty() ? null : trimmed;
@@ -122,18 +130,22 @@ public class UrlFetcher {
     }
 
     private String filenameFromContentDisposition(String headerField) {
-        if (headerField == null || headerField.isEmpty()) return null;
-        if (headerField.contains("/") || headerField.contains("\\")) return null; // NO path separators allowed
+        if (headerField == null || headerField.isEmpty())
+            return null;
+        if (headerField.contains("/") || headerField.contains("\\"))
+            return null; // NO path separators allowed
         Pattern p = Pattern.compile("attachment\\s+;\\s+filename\\s+=\\s+\"(\\w+)\"");
         Matcher m = p.matcher(headerField);
         return m.find() ? stripIllegalFilenameChars(m.group(1)) : null;
     }
 
     private void streamToFile(InputStream is) throws IOException {
-        if (file.exists() && file.length() > 0) throw new IOException("File " + file + " already exists.");
+        if (file.exists() && file.length() > 0)
+            throw new IOException("File " + file + " already exists.");
         try (OutputStream fo = new BufferedOutputStream(new FileOutputStream(file))) {
             int b = 0;
-            while ((b = is.read()) != -1) fo.write(b);
+            while ((b = is.read()) != -1)
+                fo.write(b);
             fo.flush();
         }
     }

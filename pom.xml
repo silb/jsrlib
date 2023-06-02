@@ -22,16 +22,27 @@
     </license>
   </licenses>
 
+  <scm>
+    <connection>scm:git:https://github.com/silb/jsrlib.git</connection>
+    <developerConnection>scm:git:git@github.com:silb/jsrlib.git</developerConnection>
+    <tag>HEAD</tag>
+    <url>https://github.com/silb/jsrlib</url>
+  </scm>
+
+  <issueManagement>
+    <url>https://github.com/silb/jsrlib/issues</url>
+  </issueManagement>
+
   <distributionManagement>
     <downloadUrl>https://dist.secnod.org</downloadUrl>
-    <repository>
-      <id>secnod-public-releases</id>
-      <url>${secnod-public-releases.url}</url>
-    </repository>
     <snapshotRepository>
-      <id>secnod-public-snapshots</id>
-      <url>${secnod-public-snapshots.url}</url>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
     </snapshotRepository>
+    <repository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+    </repository>
   </distributionManagement>
 
   <properties>

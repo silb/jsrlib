@@ -13,62 +13,73 @@ and performs downloads by screen scraping <https://www.jcp.org>.
 
 # Command line usage
 
-    mvn compile
-    alias jsrlib="java -cp \"$PWD/target/classes:$(mvn dependency:build-classpath | grep -v '^\[')\" org.secnod.jsr.cli.Tool"
+```sh
+$ mvn compile
+$ alias jsrlib="java -cp \"$PWD/target/classes:$(mvn dependency:build-classpath | grep -v '^\[')\" org.secnod.jsr.cli.Tool"
+```
 
 List JSRs that specify a given package:
 
-    jsrlib query package javax.ws.rs
-    JSR 370: JavaTM API for RESTful Web Services (JAX-RS 2.1) Specification
-      Description: This JSR is to develop JAX-RS 2.1, the next release of Java API for RESTful Web Services.
-      Link: https://www.jcp.org/en/jsr/detail?id=370
-      Packages: javax.ws.rs javax.ws.rs.client
-      Tags: JavaEE8
-      Succeeds: JSR 339 JAX-RS 2.0: The Java API for RESTful Web Services
+```sh
+$ jsrlib query package javax.ws.rs
+JSR 370: JavaTM API for RESTful Web Services (JAX-RS 2.1) Specification
+  Description: This JSR is to develop JAX-RS 2.1, the next release of Java API for RESTful Web Services.
+  Link: https://www.jcp.org/en/jsr/detail?id=370
+  Packages: javax.ws.rs javax.ws.rs.client
+  Tags: JavaEE8
+  Succeeds: JSR 339 JAX-RS 2.0: The Java API for RESTful Web Services
 
-    JSR 339: JAX-RS 2.0: The Java API for RESTful Web Services
-      Description: This JSR will develop the next version of JAX-RS, the API for for RESTful (Representational State Transfer) Web Services in the Java Platform.
-      Link: https://www.jcp.org/en/jsr/detail?id=339
-      Packages: javax.ws.rs javax.ws.rs.client
-      Tags: JavaEE7
-      Succeeds: JSR 311 JAX-RS: The JavaTM API for RESTful Web Services
+JSR 339: JAX-RS 2.0: The Java API for RESTful Web Services
+  Description: This JSR will develop the next version of JAX-RS, the API for for RESTful (Representational State Transfer) Web Services in the Java Platform.
+  Link: https://www.jcp.org/en/jsr/detail?id=339
+  Packages: javax.ws.rs javax.ws.rs.client
+  Tags: JavaEE7
+  Succeeds: JSR 311 JAX-RS: The JavaTM API for RESTful Web Services
 
-    JSR 311: JAX-RS: The JavaTM API for RESTful Web Services
-      Description: This JSR will develop an API for providing support for RESTful(Representational State Transfer) Web Services in the Java Platform.
-      Link: https://www.jcp.org/en/jsr/detail?id=311
-      Packages: javax.ws.rs
-      Tags: JavaEE6 JavaEE5
-
+JSR 311: JAX-RS: The JavaTM API for RESTful Web Services
+  Description: This JSR will develop an API for providing support for RESTful(Representational State Transfer) Web Services in the Java Platform.
+  Link: https://www.jcp.org/en/jsr/detail?id=311
+  Packages: javax.ws.rs
+  Tags: JavaEE6 JavaEE5
+```
 
 Then download it:
 
-    jsrlib download jsr 370 .
-    ./JSR-370-jaxrs2_1finalspec.pdf
+```sh
+$ jsrlib download jsr 370 .
+./JSR-370-jaxrs2_1finalspec.pdf
+```
 
 List all variants of JSR 318:
 
-    jsrlib list jsr 318
-    JSR 318-ejb: Enterprise JavaBeansTM 3.1
-      Description: Enterprise JavaBeans is an architecture for the development and deployment of component-based business applications.
-      Link: https://www.jcp.org/en/jsr/detail?id=318
-      Packages: javax.ejb
-      Tags: JavaEE6
-      Succeeds: JSR 220 Enterprise JavaBeansTM 3.0
+```sh
+$ jsrlib list jsr 318
+JSR 318-ejb: Enterprise JavaBeansTM 3.1
+  Description: Enterprise JavaBeans is an architecture for the development and deployment of component-based business applications.
+  Link: https://www.jcp.org/en/jsr/detail?id=318
+  Packages: javax.ejb
+  Tags: JavaEE6
+  Succeeds: JSR 220 Enterprise JavaBeansTM 3.0
 
-    JSR 318-interceptors: Interceptors 1.2
-      Description: Enterprise JavaBeans is an architecture for the development and deployment of component-based business applications.
-      Link: https://www.jcp.org/en/jsr/detail?id=318
-      Packages: javax.interceptor
-      Tags: JavaEE6
+JSR 318-interceptors: Interceptors 1.2
+  Description: Enterprise JavaBeans is an architecture for the development and deployment of component-based business applications.
+  Link: https://www.jcp.org/en/jsr/detail?id=318
+  Packages: javax.interceptor
+  Tags: JavaEE6
+```
 
 Then download the interceptors variant:
 
-    jsrlib download jsr 318-interceptors .
-    ./JSR-318-interceptors-Intercept.pdf
+```sh
+$ jsrlib download jsr 318-interceptors .
+./JSR-318-interceptors-Intercept.pdf
+```
 
 For help on further usage:
 
-    jsrlib help
+```sh
+$ jsrlib help
+```
 
 
 # Legal
@@ -130,5 +141,6 @@ for an overview of the web profiles.
 
 ## Running the integration tests
 
-    mvn -DskipITs=false verify
-
+```sh
+$ mvn -DskipITs=false verify
+```

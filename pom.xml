@@ -9,7 +9,7 @@
   <description>
   Jsrlib is a software library that acts as a librarian for Java Specification Requests (JSRs).
   It can query JSRs by for instance the Java packages they specify, and it can also download JSRs by screen scraping
-  &lt;https://wwww.jcp.org&gt;.
+  &lt;https://www.jcp.org&gt;.
   </description>
   <url>https://github.com/silb/jsrlib</url>
 

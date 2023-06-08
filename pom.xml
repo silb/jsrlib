@@ -11,7 +11,7 @@
   It can query JSRs by for instance the Java packages they specify, and it can also download JSRs by screen scraping
   &lt;https://www.jcp.org&gt;.
   </description>
-  <url>https://github.com/silb/jsrlib</url>
+  <url>https://dist.secnod.org/jsrlib</url>
 
   <licenses>
     <license>
